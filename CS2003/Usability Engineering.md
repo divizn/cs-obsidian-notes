@@ -1,3 +1,6 @@
+
+# Module
+
 The exam is 3 hours. It is recommended that you read through the questions before starting. It is recommended that you spend 30 - 40 minutes on questions 1 and 2, 1 hour on questions 3 and 4 and 30 minutes on question 5. 
 
 1. Familiarise yourself with Usability Engineering Principles by Don Norman. You should be able to provide a good understanding of UE principles and how they are implemented, as you will need to show this in sketch form in the exam. Reference: Norman, D. (2013). The Design of Everyday Things. Basic Books Lecture: Week 2 Useful site: https://medium.com/@sachinrekhi/don-normans-principles-of-interactiondesign-51025a2c0f33 
@@ -14,3 +17,11 @@ The exam is 3 hours. It is recommended that you read through the questions befor
 - LO2: Explain and justify the role of usability engineering and its management within the context of product, service and application development.
 
 - LO3: Design and implement a usability engineering cycle for the development of a pre-defined product, service or application.
+
+
+# Links
+
+- [Principles - Don Norman](UE%20Principles.md)
+- [Lifecycles](UE%20Lifecycles.md)
+- [Evaluation Methods](UE%20Evaluation%20Methods.md)
+

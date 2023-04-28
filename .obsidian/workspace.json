@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ce2d2c007fa2112",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS2003/Usability Engineering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "027089e14eaf1f6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2003/CS2002 - Usability Engineering.md",
+                "file": "CS2003/Usability Engineering.md",
                 "mode": "source",
                 "source": true
               }
@@ -35,40 +23,12 @@
             "id": "fa5fc43c6b867b0e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS2003/UE Principles.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "445a7fc69be70b1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS2003/UE Principles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48c42e460922aa5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS2003/UE Evaluation Methods.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2003/UE Evaluation Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2003/UE Evaluation Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CS2003/UE Evaluation Methods.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -196,16 +152,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "48c42e460922aa5b",
+  "active": "fa5fc43c6b867b0e",
   "lastOpenFiles": [
-    "CS2003/UE Lifecycles.md",
-    "CS2003/UE Principles.md",
+    "Index.md",
+    "CS2005/Networks and Operating Systems.md",
+    "CS2002/Software Development and Management.md",
     "CS2003/Usability Engineering.md",
-    "CS2003/UE Evaluation Methods.md",
-    "Untitled.md",
-    "CS2003/CS2002 - Usability Engineering.md",
-    "CS2004/CS2004.md",
-    "CS2002/CS2002.md",
+    "CS2004/Algorithms and their Applications.md",
+    "CS2003/Topics/UE Evaluation Methods.md",
+    "CS2005/Topics",
+    "CS2004/Topics",
+    "CS2002/Topics",
+    "CS2003/Topics",
+    "CS2003/Topics/UE Lifecycles.md",
+    "CS2003/Topics/UE Principles.md",
+    "Usability.md",
     "CS2003.md",
     "CS2004.md",
     "CS2002.md",

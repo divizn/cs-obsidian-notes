@@ -1,2 +1,0 @@
-- [Exam Info](Usability%20Engineering.md)
-- [Principles - Don Norman](UE%20Principles.md)
