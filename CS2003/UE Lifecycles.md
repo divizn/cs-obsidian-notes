@@ -1,0 +1,2 @@
+
+> Familiarise yourself with Usability Engineering Lifecycles and estimate how long a task would take you. In the exam, you should be able to describe the lifecycle and justify why you have selected a model and justify the duration.
