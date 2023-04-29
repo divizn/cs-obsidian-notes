@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2003/Topics/UE Principles.md",
+                "file": "CS2003/Topics/UE Lifecycles.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2003/Topics/UE Principles.md",
+                "file": "CS2003/Topics/UE Lifecycles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2003/Topics/UE Principles.md",
+                "file": "CS2003/Topics/UE Lifecycles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2003/Topics/UE Principles.md"
+                "file": "CS2003/Topics/UE Lifecycles.md"
               }
             }
           }
@@ -150,7 +150,11 @@
   },
   "active": "027089e14eaf1f6c",
   "lastOpenFiles": [
+    "CS2003/Usability Engineering.md",
+    "Index.md",
     "CS2003/Topics/UE Principles.md",
+    "CS2003/attachments/alt-text.png",
+    "CS2003/attachments/alt-text.png.opdownload",
     "CS2003/attachments/mapping.png",
     "CS2003/attachments/mapping.png.opdownload",
     "CS2003/attachments/instagram.png",
@@ -161,7 +165,6 @@
     "CS2003/attachments/feedback-example.png.opdownload",
     "attachments/tap-image.png.md",
     "attachments",
-    "CS2003/Usability Engineering.md",
     "CS2003/attachments/tap-example.png",
     "CS2003/attachments/unnamed.png.opdownload",
     "CS2003/attachments",
@@ -169,11 +172,9 @@
     "CS2003/New folder",
     "CS2003/Topics/UE Lifecycles.md",
     "CS2003/Topics/UE Evaluation Methods.md",
-    "Index.md",
     "CS2005/Networks and Operating Systems.md",
     "CS2002/Software Development and Management.md",
     "CS2004/Algorithms and their Applications.md",
-    "CS2005/Topics",
     "Usability.md",
     "CS2003.md",
     "CS2004.md",

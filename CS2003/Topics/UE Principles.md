@@ -4,7 +4,6 @@
 - [About](#about)
 - [Sharp et al principles](#sharp%20et%20al%20principles)
 - [Accessibility and Inclusivity](#accessibility%20and%20inclusivity)
-- 
 
 
 
@@ -153,4 +152,21 @@ Example of mapping:
 - Describes content and function of the image
 - Should not be redundant or provide same information as the text
 - Doesn't use phrases like "image of" or "picture of"
+- **Keep it to a maximum of 160 words**
 
+Examples of meaningful alt text:
+![examples of good alt text](alt-text.png)
+
+
+### Principles of accessibility
+
+- If you cannot consider all disabilities, then consider blindness as 80% of accessibility issues are related to blindness. 
+-  Create good alt text
+- Remember to tag icons so screen readers don't skip over them (e.g. hamburger menu).
+- Make sure all important content is accessible by screen readers
+- Test for accessibility with real users
+- Don't disable zoom in mobile interfaces where possible
+- Accessibility is cheaper when it's done up front - and it's easily learnt
+- Be aware of visual bias - accessibility doesn't mean ugly design
+- Check mobile accessibility separately
+- Embrace the all-access attitude (universal design)
