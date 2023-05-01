@@ -11,8 +11,12 @@
             "id": "027089e14eaf1f6c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CS2003/Topics/UE Lifecycles.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS2003/Topics/UE Lifecycles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS2003/Topics/UE Lifecycles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS2003/Topics/UE Lifecycles.md"
+              }
             }
           }
         ]
@@ -142,13 +150,16 @@
   },
   "active": "027089e14eaf1f6c",
   "lastOpenFiles": [
+    "CS2003/attachments/ue-lifecycle.jpg",
+    "CS2003/attachments/UE Lifecycle.jpg.opdownload",
+    "CS2005/Networks and Operating Systems.md",
     "CS2003/Topics/UE Principles.md",
+    "CS2003/Usability Engineering.md",
     "CS2003/Topics/UE Lifecycles.md",
     "CS2003/Topics/UE Evaluation Methods.md",
     "CS2003/attachments/door.png",
     "CS2003/attachments/alt-text.png",
     "Index.md",
-    "CS2003/Usability Engineering.md",
     "CS2003/attachments/alt-text.png.opdownload",
     "CS2003/attachments/mapping.png",
     "CS2003/attachments/mapping.png.opdownload",
@@ -163,8 +174,6 @@
     "CS2003/attachments/unnamed.png.opdownload",
     "CS2003/attachments",
     "CS2003/img",
-    "CS2003/New folder",
-    "CS2005/Networks and Operating Systems.md",
     "CS2002/Software Development and Management.md",
     "CS2004/Algorithms and their Applications.md",
     "Usability.md",

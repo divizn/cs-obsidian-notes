@@ -2,6 +2,8 @@
 # Contents
 
 [About](#about)
+[The UE Lifecycle](#the%20ue%20lifecycle)
+
 
 # About
 
@@ -9,10 +11,15 @@
 
 > LO3: design and implement a usability engineering cycle for the development of a pre-defined product, service or application
 
-1. Design of software systems
-	- Problems with traditional software design methods
-	- Meet needs of the users
-2. Why and what is User Centred Design (UCD)
-	- UCD methods and approaches
-3. UCD from other disciplines
+
+# The UE Lifecycle
+
+- Designed as a usability test plan
+- Integrated into software development project
+- Iterative model including three phases: 
+	1. **Requirement Analysis** - understand user issues, what tasks users need to do, set goals for usability study
+	2. **Design, testing and development** - conceptual design, project standards, final design
+	3. **Installation** - feedback from the users
+
+![LIfecycle diagram](ue-lifecycle.jpg)
 
