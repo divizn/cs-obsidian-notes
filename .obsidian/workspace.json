@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2003/Topics/UE Principles.md",
+                "file": "Year 2/CS2003/Topics/UE Principles.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2003/Topics/UE Lifecycles.md",
+                "file": "Year 2/CS2003/Topics/UE Lifecycles.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2003/Topics/UE Evaluation Methods.md",
+                "file": "Year 2/CS2003/Topics/UE Evaluation Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2003/Topics/UE Principles.md",
+                "file": "Year 2/CS2003/Topics/UE Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2003/Topics/UE Principles.md",
+                "file": "Year 2/CS2003/Topics/UE Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2003/Topics/UE Principles.md"
+                "file": "Year 2/CS2003/Topics/UE Principles.md"
               }
             }
           }
@@ -173,35 +173,35 @@
   },
   "active": "d4ffed3a80c1ffa8",
   "lastOpenFiles": [
-    "CS2003/Topics/UE Lifecycles.md",
-    "CS2003/Topics/UE Principles.md",
-    "CS2003/Usability Engineering.md",
-    "CS2003/Topics/UE Evaluation Methods.md",
-    "CS2003/attachments/ssm-stages.png",
+    "Year 2/CS2003/Usability Engineering.md",
+    "Year 2/Year 2.md",
+    "Year 2/CS2003/Topics/UE Principles.md",
+    "Year 2/CS2002/Software Development and Management.md",
+    "Year 2",
+    "Year 2/CS2003/Topics/UE Lifecycles.md",
+    "Year 2/CS2003/Topics/UE Evaluation Methods.md",
+    "Year 2/CS2003/attachments/ssm-stages.png",
     "CS2003/attachments/ssm-stages.png.opdownload",
-    "CS2003/attachments/boehm.png",
+    "Year 2/CS2003/attachments/boehm.png",
     "CS2003/attachments/boehm.png.opdownload",
     "CS2003/attachments/exam.png",
     "CS2003/attachments/exam.png.opdownload",
-    "Year 2.md",
-    "CS2003/attachments/ue-lifecycle.jpg",
+    "Year 2/CS2003/attachments/ue-lifecycle.jpg",
     "CS2003/attachments/UE Lifecycle.jpg.opdownload",
-    "CS2005/Networks and Operating Systems.md",
-    "CS2003/attachments/door.png",
-    "CS2003/attachments/alt-text.png",
+    "Year 2/CS2005/Networks and Operating Systems.md",
+    "Year 2/CS2003/attachments/door.png",
+    "Year 2/CS2003/attachments/alt-text.png",
     "CS2003/attachments/alt-text.png.opdownload",
-    "CS2003/attachments/mapping.png",
+    "Year 2/CS2003/attachments/mapping.png",
     "CS2003/attachments/mapping.png.opdownload",
-    "CS2003/attachments/instagram.png",
+    "Year 2/CS2003/attachments/instagram.png",
     "CS2003/attachments/instagram.png.opdownload",
     "CS2003/attachments/door.png.opdownload",
-    "CS2003/attachments/feedback-example.png",
+    "Year 2/CS2003/attachments/feedback-example.png",
     "CS2003/attachments/feedback-example.png.opdownload",
     "attachments/tap-image.png.md",
-    "attachments",
-    "CS2003/attachments/tap-example.png",
-    "CS2002/Software Development and Management.md",
-    "CS2004/Algorithms and their Applications.md",
+    "Year 2/CS2003/attachments/tap-example.png",
+    "Year 2/CS2004/Algorithms and their Applications.md",
     "Usability.md",
     "CS2003.md",
     "CS2004.md",

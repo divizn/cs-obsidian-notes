@@ -37,7 +37,7 @@ Design principles are the do's and don't of interaction design.
 - Visible functions are how likely users will know what to do next. e.g. controls for a car (headlights, horn, hazards, indicators, etc.). All hand based on what the driver needs them for
 
 Problem examples include sensor technology use. e.g. taps (w/ sensors):
-![tap](attachments/tap-example.png)
+![tap](tap-example.png)
 Here you can see that the tap doesn't work with black clothing causing a **usability** issue.
 
 
