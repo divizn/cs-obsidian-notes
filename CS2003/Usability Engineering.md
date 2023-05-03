@@ -13,6 +13,11 @@
 - 1 hour on questions 3 and 4
 - 30 minutes on question 5. 
 
+>1. create prototype (sketch) based on idea given in exam, provide reasons how your sketch links to the UE principles (e.g. visibility, accordance, etc)
+>2. familiarise yourself with two UE lifecycles (e.g. star lifecycle, UE lifecycle) ensuring you know how to describe and justify each on why the specific model was chosen && justifying the reason to why you set a certain duration to that certain task
+>3. know both heuristic evaluation and cognitive walkthrough, have the ability to describe each, being able to both compare and contrast each, and how they can be utilised effectively, providing pros and cons for each.
+
+
 
 ### Topics
 
