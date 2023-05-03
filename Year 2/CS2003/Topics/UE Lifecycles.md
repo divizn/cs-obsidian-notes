@@ -94,7 +94,6 @@ Iterative model including three phases:
 
 # Practice Questions
 
-
 ### For each of the following scenarios, identify which UCD methodology you might use and justify your choice:
 
 1. Designing an educational game for 5-6 year olds

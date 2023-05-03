@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "39f2466ccfd83afe",
@@ -109,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 2/CS2003/Topics/UE Principles.md",
+                "file": "Year 2/CS2003/Topics/UE Lifecycles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 2/CS2003/Topics/UE Principles.md",
+                "file": "Year 2/CS2003/Topics/UE Lifecycles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 2/CS2003/Topics/UE Principles.md"
+                "file": "Year 2/CS2003/Topics/UE Lifecycles.md"
               }
             }
           }
@@ -171,11 +173,11 @@
       "graph:Open graph view": false
     }
   },
-  "active": "d4ffed3a80c1ffa8",
+  "active": "38427db7344c0f15",
   "lastOpenFiles": [
+    "Year 2/CS2003/Topics/UE Principles.md",
     "Year 2/CS2003/Usability Engineering.md",
     "Year 2/Year 2.md",
-    "Year 2/CS2003/Topics/UE Principles.md",
     "Year 2/CS2002/Software Development and Management.md",
     "Year 2",
     "Year 2/CS2003/Topics/UE Lifecycles.md",
