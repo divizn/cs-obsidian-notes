@@ -14,7 +14,3 @@
 
 # Heuristic Evaluation
 
-
- 
-
-# Cognitive Walkthrough
