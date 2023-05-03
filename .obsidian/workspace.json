@@ -89,6 +89,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "b6db9276deb1ed1c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -169,8 +177,8 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "graph:Open graph view": false
+      "graph:Open graph view": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "00a2b2abeb2bd4a3",
