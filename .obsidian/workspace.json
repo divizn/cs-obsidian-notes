@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "805ec78d137a655f",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfbf0ef53f7372c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62ebebe1cf617179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 2/CS2003/Topics/UE Principles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "793e8b0a585031fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 2/CS2003/Topics/UE Lifecycles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "385854bfa19b87df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 2/CS2003/Topics/UE Evaluation Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "681b04238b780748",
+    "type": "split",
+    "children": [
+      {
+        "id": "071d305e27d00898",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "493122ffbfc610ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "44dc756aeecb4107",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2966f9889a5255a6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7eb0a1cb8c5fd6a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a1e23c48b95c04d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e6be7f986834f48",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Year 2/CS2003/Topics/UE Evaluation Methods.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "607a007b36f754c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Year 2/CS2003/Topics/UE Evaluation Methods.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2840d8d08f1d4a03",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5bf85c5e3ea1a2d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Year 2/CS2003/Topics/UE Evaluation Methods.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "385854bfa19b87df",
+  "lastOpenFiles": [
+    "Year 2/CS2003/Topics/UE Principles.md",
+    "Year 2/CS2003/Topics/UE Lifecycles.md",
+    "Year 2/CS2003/Topics/UE Evaluation Methods.md"
+  ]
+}
