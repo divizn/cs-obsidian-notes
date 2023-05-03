@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "027089e14eaf1f6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS2003/Topics/UE Lifecycles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "38427db7344c0f15",
             "type": "leaf",
             "state": {
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2003/Topics/UE Lifecycles.md",
+                "file": "CS2003/Usability Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2003/Topics/UE Lifecycles.md",
+                "file": "CS2003/Usability Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2003/Topics/UE Lifecycles.md"
+                "file": "CS2003/Usability Engineering.md"
               }
             }
           }
@@ -172,11 +160,11 @@
       "graph:Open graph view": false
     }
   },
-  "active": "027089e14eaf1f6c",
+  "active": "38427db7344c0f15",
   "lastOpenFiles": [
+    "CS2003/Topics/UE Lifecycles.md",
     "CS2003/Topics/UE Evaluation Methods.md",
     "CS2003/Usability Engineering.md",
-    "CS2003/Topics/UE Lifecycles.md",
     "CS2003/Topics/UE Principles.md",
     "CS2003/attachments/ssm-stages.png",
     "CS2003/attachments/ssm-stages.png.opdownload",

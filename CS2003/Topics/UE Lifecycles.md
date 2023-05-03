@@ -7,6 +7,7 @@
 [Star Lifecycle](#star%20lifecycle)
 [Participatory Design](#participatory%20design)
 [Boehm's Spiral Model](#boehm%27s%20spiral%20model)
+[Practice Questions](#practice%20questions)
 
 
 # About
@@ -91,7 +92,7 @@ Iterative model including three phases:
 
 
 
-# Questions
+# Practice Questions
 
 
 ### For each of the following scenarios, identify which UCD methodology you might use and justify your choice:
@@ -108,6 +109,3 @@ Options:
 1. Use Star or PD
 2. Use Star or SSM
 3. Use PD
-
-
-
