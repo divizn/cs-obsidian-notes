@@ -92,12 +92,12 @@ Social emails are blue, promotions green, updates are yellow staying **consisten
 
 ## Others to consider
 
-- Simplicity/functional minimalism - keeping it simplistic and straight to the point
-- Cognitive - reducing cognitive load to understand application (reduce amount of information on screen to highlight what's important) - kind of like abstraction
-- Engagement - interactively designed - TikTok
-- Perceivability - another description for affordability - interactive media like showing things happening e.g. dragging a file or loading icon (?)
-- Learnability - making things easy to learn
-- Mapping - process that narrows the gap between users or customers' needs and the product
+- **Simplicity/functional minimalism** - keeping it simplistic and straight to the point
+- **Cognitive** - reducing cognitive load to understand application (reduce amount of information on screen to highlight what's important) - kind of like abstraction
+- **Engagement** - interactively designed - TikTok
+- **Perceivability** - another description for affordability - interactive media like showing things happening e.g. dragging a file or loading icon (?)
+- **Learnability** - making things easy to learn
+- **Mapping** - process that narrows the gap between users or customers' needs and the product
 
 Example of mapping: 
 ![mapping example](mapping.png)
