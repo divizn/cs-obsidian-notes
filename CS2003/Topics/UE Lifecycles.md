@@ -102,9 +102,9 @@ Iterative model including three phases:
 3. Designing a system to improve the manufacturing process for workers at Vauxhall's car production in Luton
 
 Options: 
-- Soft Systems Methodology - good for understanding a complex problem
-- Participatory design - where a high level of user involvement is required
-- Star Lifecycle - has evaluation at the heart and encourages iteration
+- **Soft Systems Methodology** - good for understanding a complex problem
+- **Participatory design** - where a high level of user involvement is required
+- **Star Lifecycle** - has evaluation at the heart and encourages iteration
 
 1. Use Star or PD
 2. Use Star or SSM

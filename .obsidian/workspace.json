@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d4ffed3a80c1ffa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS2003/Topics/UE Principles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "38427db7344c0f15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2003/Usability Engineering.md",
+                "file": "CS2003/Topics/UE Lifecycles.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2003/Topics/UE Evaluation Methods.md",
+                "file": "CS2003/Topics/UE Lifecycles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2003/Topics/UE Evaluation Methods.md",
+                "file": "CS2003/Topics/UE Lifecycles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2003/Topics/UE Evaluation Methods.md"
+                "file": "CS2003/Topics/UE Lifecycles.md"
               }
             }
           }
@@ -161,12 +173,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "00a2b2abeb2bd4a3",
+  "active": "38427db7344c0f15",
   "lastOpenFiles": [
-    "CS2003/Usability Engineering.md",
-    "CS2003/Topics/UE Lifecycles.md",
-    "CS2003/Topics/UE Evaluation Methods.md",
     "CS2003/Topics/UE Principles.md",
+    "CS2003/Topics/UE Lifecycles.md",
+    "CS2003/Usability Engineering.md",
+    "CS2003/Topics/UE Evaluation Methods.md",
     "CS2003/attachments/ssm-stages.png",
     "CS2003/attachments/ssm-stages.png.opdownload",
     "CS2003/attachments/boehm.png",
