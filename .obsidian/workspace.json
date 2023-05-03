@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2003/Topics/UE Lifecycles.md",
+                "file": "CS2003/Topics/UE Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2003/Topics/UE Lifecycles.md",
+                "file": "CS2003/Topics/UE Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2003/Topics/UE Lifecycles.md"
+                "file": "CS2003/Topics/UE Principles.md"
               }
             }
           }
@@ -173,10 +172,10 @@
       "graph:Open graph view": false
     }
   },
-  "active": "38427db7344c0f15",
+  "active": "d4ffed3a80c1ffa8",
   "lastOpenFiles": [
-    "CS2003/Topics/UE Principles.md",
     "CS2003/Topics/UE Lifecycles.md",
+    "CS2003/Topics/UE Principles.md",
     "CS2003/Usability Engineering.md",
     "CS2003/Topics/UE Evaluation Methods.md",
     "CS2003/attachments/ssm-stages.png",
