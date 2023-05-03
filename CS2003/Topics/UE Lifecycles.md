@@ -59,7 +59,11 @@ Iterative model including three phases:
 
  - Good for expert systems as the experts will be able to help
 
-
+### PD Methods
+- Workshop based
+- Aim is to encourage creativity and *'out of the box'* thinking
+- No fixed approach, methods or tools
+- Using the right combination for the job at hand
 
 
 
@@ -100,3 +104,10 @@ Options:
 - Soft Systems Methodology - good for understanding a complex problem
 - Participatory design - where a high level of user involvement is required
 - Star Lifecycle - has evaluation at the heart and encourages iteration
+
+1. Use Star or PD
+2. Use Star or SSM
+3. Use PD
+
+
+
