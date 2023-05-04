@@ -106,6 +106,8 @@ Best practice - 5 or more experts report a problem using this same format:
 3. **Specific contexts** - the specific context in which the problem may occur
 4. **Assumed causes** - description of the cause(s) of the problem
 
+- The problems found are rated by frequency and impact to assess importance in redesign to decide the priority and need of solving these problems
+
 ### The 10 heuristics (assumed causes)
 
 1. **Visibility**
@@ -134,3 +136,14 @@ Best practice - 5 or more experts report a problem using this same format:
 8. **Aesthetic and minimalist design
 9. **Recognise, diagnose and recover from errors
 10. **Help and documentation**
+
+
+
+# Cognitive Walkthrough
+
+Made by some guy called Polson et al.
+
+- Evaluates how well systems support users learning tasks
+	- Usually performed by expert in cognitive psychology
+	- expert 'walks through' design to identify potential problems using psychological principles
+	- Asks the experts to assess "will the system make sense to the user?" - evaluating the steps to form the task and how meaningful they are to try and uncover mismatches in how users think about the task vs how the developers thinks about the task
