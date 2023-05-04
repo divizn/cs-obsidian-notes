@@ -80,6 +80,13 @@ To determine the type and form of evaluative study to carry out, what are the:
 	- adversarial courtroom style meeting with moderator
 	- present and discuss weaknesses/strengths
 
+### Limitations of expert reviews
+
+- Lacks 'ecological' validity - are they telling us what we want to know?
+- Requires knowledge and experience to apply effectively
+- May identify more minor issues and fewer major issues
+- Subject to the biases and whims of reviewers - which is why you use multiple experts and aggregate their results
+
 
 
 # Heuristic Evaluation
@@ -141,6 +148,8 @@ Best practice - 5 or more experts report a problem using this same format:
 
 # Cognitive Walkthrough
 
+An **analytic method** of evaluation
+
 Made by some guy called Polson et al.
 
 - Evaluates how well systems support users learning tasks
@@ -170,4 +179,7 @@ For example: creating a customised 'visual' voicemail message on an iPhone:
 	- *Can the user connect the correct action with what he/she is trying to do? Is there a conceptual link between the control and the action?*
 4. **If the correct action is performed, will the user see that progress is being made towards their intended outcome?
 	- *Is there feedback? Is the feedback appropriate to indicate action completion? Will the user know if they have made a right or wrong choice?*
+
+- You need to make sure the answer to all 4 questions are yes
+
 
