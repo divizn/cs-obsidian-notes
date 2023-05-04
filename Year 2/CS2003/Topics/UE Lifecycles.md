@@ -25,7 +25,7 @@
 - Emphasis on **understanding the situation** and solving **complex problems**
 - Used in the early stages of the design lifecycle
 - **Used in systems analysis** which recognise the **more complex and fuzzy nature of organisational life** where a variety of goals are being pursued
-- **Interpretive and subjective**) approach 
+- **Interpretive and subjective** approach 
 - **User centred** - places users at the core (values, believes and views e.g. a university 'system')
 - **Only takes analyst up to design** - says nothing about implementation, or evaluation
 
