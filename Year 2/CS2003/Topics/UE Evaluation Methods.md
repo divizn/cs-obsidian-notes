@@ -147,3 +147,27 @@ Made by some guy called Polson et al.
 	- Usually performed by expert in cognitive psychology
 	- expert 'walks through' design to identify potential problems using psychological principles
 	- Asks the experts to assess "will the system make sense to the user?" - evaluating the steps to form the task and how meaningful they are to try and uncover mismatches in how users think about the task vs how the developers thinks about the task
+
+## Performing cognitive walkthrough
+
+###### To begin, select a task to be performed and write down all the steps (actions) in the task
+For example: creating a customised 'visual' voicemail message on an iPhone:
+1. Tap VoiceMail
+2. Tap Greeting
+3. Tap Custom
+4. Tap Record and speak your greeting
+5. When you finish, tap Stop
+6. To listen to your greeting, tap Play
+7. To re-record, repeat steps 4 and 5
+8. Tap Save
+
+###### Then for each action in the task, ask these 4 questions:
+1. **Will the user try and achieve the right outcome?
+	- *Does the user have the knowledge they need to start the action? Will they understand the need for this action in the task?*
+2. **Will the user notice that the correct action is available to them?
+	- *Does the user know what to do next? Is the correct action obvious, or have to be recalled from memory? Is the control visible?*
+3. **Will the user associate the correct action with the outcome they expect to achieve?**
+	- *Can the user connect the correct action with what he/she is trying to do? Is there a conceptual link between the control and the action?*
+4. **If the correct action is performed, will the user see that progress is being made towards their intended outcome?
+	- *Is there feedback? Is the feedback appropriate to indicate action completion? Will the user know if they have made a right or wrong choice?*
+
