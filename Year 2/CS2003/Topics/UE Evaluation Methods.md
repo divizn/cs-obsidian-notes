@@ -139,9 +139,9 @@ Best practice - 5 or more experts report a problem using this same format:
 	2. Also includes thing like form items are in the right form e.g. email input should expect an email only (include @ and .)
 6. **Recognition rather than recall**
 	- For example, rather than just having just text for an option, include visuals that people can recognise and remember the option by
-7. **Flexibility and efficiency of use
-8. **Aesthetic and minimalist design
-9. **Recognise, diagnose and recover from errors
+7. **Flexibility and efficiency of use**
+8. **Aesthetic and minimalist design**
+9. **Recognise, diagnose and recover from errors**
 10. **Help and documentation**
 
 
@@ -171,13 +171,13 @@ For example: creating a customised 'visual' voicemail message on an iPhone:
 8. Tap Save
 
 ###### Then for each action in the task, ask these 4 questions:
-1. **Will the user try and achieve the right outcome?
+1. **Will the user try and achieve the right outcome?**
 	- *Does the user have the knowledge they need to start the action? Will they understand the need for this action in the task?*
-2. **Will the user notice that the correct action is available to them?
+2. **Will the user notice that the correct action is available to them?**
 	- *Does the user know what to do next? Is the correct action obvious, or have to be recalled from memory? Is the control visible?*
 3. **Will the user associate the correct action with the outcome they expect to achieve?**
 	- *Can the user connect the correct action with what he/she is trying to do? Is there a conceptual link between the control and the action?*
-4. **If the correct action is performed, will the user see that progress is being made towards their intended outcome?
+4. **If the correct action is performed, will the user see that progress is being made towards their intended outcome?**
 	- *Is there feedback? Is the feedback appropriate to indicate action completion? Will the user know if they have made a right or wrong choice?*
 
 - You need to make sure the answer to all 4 questions are yes
