@@ -10,7 +10,7 @@
 	- PCB
 	- Process states and lifecycle
 	- Process scheduling (schedulers, queues, …)
-- Concurrency / parallelism
+- [Concurrency and parallelism](Concurrency%20and%20parallelism.md)
 - What is a thread?
 - Threads states and lifecycle (in Java)
 - Critical section problem
