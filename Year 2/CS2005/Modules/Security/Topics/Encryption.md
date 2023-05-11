@@ -7,3 +7,9 @@
 	- A decrypting function **D : K -> (C -> M)
 		- for each $k \in K, D_{k}$ generates messages from ciphertexts
 	- Both ***E*** and ***D*** for any $k$ should be efficiently computable functions
+- An encryption algorithm must provide the following **essential property**:
+	- Given a ciphertext $c \in C,$ a computer can compute a plaintext $m$ such that $E_{k} (m) = c$ **ONLY IF** it processes the key $k$
+- Then, a computer holding $k$ can decrypt ciphertexts to the plaintexts used to produce them ,but a computer not holding $k$ cannot decrypt these ciphertexts
+- It's important to be **infeasible** to derive $k$ from the ciphertext ($c$ is exposed)
+
+- There are two main types of encryption algorithms: **symmetric and asymmetric**
