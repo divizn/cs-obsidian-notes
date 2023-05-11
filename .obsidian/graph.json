@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "file:Index.md",
@@ -41,6 +41,27 @@
         "a": 1,
         "rgb": 11610327
       }
+    },
+    {
+      "query": "path:\"Year 2/CS2005/Modules/Security\"",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:\"Year 2/CS2005/Modules/Networks/Topics\"",
+      "color": {
+        "a": 1,
+        "rgb": 1774669
+      }
+    },
+    {
+      "query": "path:\"Year 2/CS2005/Modules/Operating Systems\"",
+      "color": {
+        "a": 1,
+        "rgb": 24826
+      }
     }
   ],
   "collapse-display": true,
@@ -49,7 +70,7 @@
   "nodeSizeMultiplier": 1.50364583333333,
   "lineSizeMultiplier": 0.891145833333333,
   "collapse-forces": false,
-  "centerStrength": 0.588541666666667,
+  "centerStrength": 0.572916666666667,
   "repelStrength": 15.2083333333333,
   "linkStrength": 0.630208333333333,
   "linkDistance": 162,
