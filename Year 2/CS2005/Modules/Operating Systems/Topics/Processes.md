@@ -37,3 +37,10 @@
 - Only one process can be **Running** at any time
 - Many processes can be **Ready** and **Waiting**
 
+
+# Process Control Block (PCB)
+
+- Each process is represented in the OS by a Process Control Block (PCB)
+- It is made up of:
+![pcb](pcb.png)
+
