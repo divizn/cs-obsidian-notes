@@ -63,7 +63,11 @@
 	- The benefit of sharing code and data is that it allows an application to have several different threads of activity within the same address space
 - **Economy**
 	- Allocating memory and resources for process creation is costly
-	- Since threads share the resources of the process to which they belong, it is more economical to create and context-switch threads (e.g. in Solaris, creating a process is about thirty times slower than it is creating a thread. Context switching is about five times slower)
+	- Since threads share the resources of the process to which they belong, it is more economical to create and context-switch threads (e.g. in Solaris, creating a process is about thirty times slower than it is creating a thread. Context switching is about five times slower) - this is because a process has multiple threads to create whereas a thread only has one process, so it's less intensive to make a thread
+- **Scalability**
+	- The benefits of multithreading can be even greater in a multiprocessor architecture, where threads may be running in parallel on different processing cores
+	- A single-threaded process can run on only one processor, regardless of how many are available
+
 
 
 # Single-threaded process vs multithreaded process
