@@ -43,4 +43,11 @@
 - Each process is represented in the OS by a Process Control Block (PCB)
 - It is made up of:
 ![pcb](pcb.png)
+![pcbstate](pcb-state-diag.png)
+![cpu example](cpu-example.png)
 
+
+# Process scheduling
+
+- The process scheduler is responsible for choosing and running processes
+- When a process is allocated, the CPU it executes for a while and eventually quits, is interrupted, or waits for the occurrence of a particular event, such as the completion of an I/O request

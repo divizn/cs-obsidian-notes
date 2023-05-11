@@ -5,7 +5,7 @@
 - Sometimes multiple types implemented as **shells**
 - Primarily fetches a command from user and executes it
 - Sometimes commands built-in (`cd`), sometimes just names of programs (`ffmpeg`)
-- Can use shell scripting to produce useful OS programs (**Batch Files** e.g. `.exe`, `.bat`, `.sh`, `zsh`)
+- Can use shell scripting to produce useful OS programs (**Batch Files** e.g. `.bat`)
 - Examples of CLI:
 	- Command prompt
 	- Bash
