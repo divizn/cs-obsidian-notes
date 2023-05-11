@@ -25,3 +25,15 @@
 
 ![what is a process made of diagram](process-diagram.png)
 
+
+# Process state
+
+- As a process executes, it changes state:
+	- **New** - The process is being created
+	- **Running** - Instructions are being executed
+	- **Waiting** - The process is waiting for some event to occur (such as an I/O completion or reception of a signal)
+	- **Ready** - The process is waiting to be assigned to a processor
+	- **Terminated** - The process has finished execution
+- Only one process can be **Running** at any time
+- Many processes can be **Ready** and **Waiting**
+
