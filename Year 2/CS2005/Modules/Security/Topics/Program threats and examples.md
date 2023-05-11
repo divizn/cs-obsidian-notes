@@ -1,6 +1,7 @@
-# Program Threats
 
 - Program threats are **programs** that causes **threats** 🤯
+
+- Typically use a **breakdown** in the protection mechanisms of a system to attack programs
 
 ### Trojan Horse
 
