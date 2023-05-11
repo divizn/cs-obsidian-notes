@@ -57,3 +57,20 @@
 	- Some (such as CPU cycles, main memory, and file storage) may have special allocation code
 	- whereas others (such as I/O devices) may have much more general request and release code
 
+
+### Accounting
+
+- We want to keep track of which users use how much and what kinds of computer resources
+-  Resource monitoring and usage tracking.
+-  Measurement and reporting of system resource utilization.
+-  Gathering statistics on CPU usage, memory usage, disk I/O, and network traffic.
+-  Allocation and monitoring of system resources among users or processes.
+-  Billing and chargeback mechanisms for resource consumption.
+
+
+### Protection and security
+
+- The owners of information stored in a multiuser or networked computer system may want to control use of that information
+- When several separate processes execute concurrently, it should not be possible for one process to interfere with the others or with the OS itself.
+- **Protection** involves ensuring that all access to system resources is controlled
+- **Security** involves securing the system from outsiders, i.e. requiring the users to authenticate themselves
