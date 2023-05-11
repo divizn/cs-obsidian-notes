@@ -17,3 +17,23 @@
 ![](conc-ex-example.png)
 ![](para-ex-example.png)
 ![](para-conc-ex-example.png)
+
+# Concurrency vs Parallelism
+
+| Concurrency                                                               | Parallelism                                                  |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Two or more tasks can start, run and complete in overlapping time periods | Two or more tasks run at the same time (multiple CPUs/cores) |
+| Composition of independently executing processes                          | Simultaneous execution of (possibly related) computations    |
+| Dealing with lots of things at once                                       | Doing lots of things at once                                                             |
+
+- An application is **neither parallel, nor concurrent**
+	- Meaning that it processes all tasks one at a time, **sequentially**
+- An application is **concurrent** but **not parallel**
+	- Meaning that it processes more than one task at the same time, but not two tasks are executing at the same instant
+- An application is **parallel** but **not concurrent**
+	- Meaning that it processes more than one task at the same time and they are executing at the same instant (multi-core CPU or multiple CPUS)
+- An application is both **parallel and concurrent**
+	- Meaning that it processes multiple tasks, concurrently, at the same time (multi-core CPU or multiple CPUs)
+
+
+# What is a thread? 
