@@ -4,7 +4,7 @@
 - [Operating systems services](operating%20systems%20services.md)
 - [Operating systems interfaces](operating%20systems%20interfaces.md)
 - [System calls](system%20calls.md)
-- System programs
+- [System programs](system%20programs.md)
 - What is a process (structure, PCB, …)?
 - Process states and lifecycle
 - Process scheduling (schedulers, queues, …)
