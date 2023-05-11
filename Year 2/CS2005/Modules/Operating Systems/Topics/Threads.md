@@ -111,6 +111,8 @@ $$speedup \le {1 \over S + {(1 - S)\over N}}$$
 
 # Thread Programming in Java
 
+Honestly don't need to know about this if you are 1. never gonna use Java and 2. not implementing it yourself (use a library lil bro)
+
 ## Creating (invoking) a thread
 
 ### Two ways to do this:
@@ -158,3 +160,10 @@ public class MyThread extends Thread {
 }
 ```
 
+
+## Thread lifecycle in Java
+![thread lifecycle in java sm diagram](java-thread-lifecycle.png)
+
+## Java Threads States
+
+- A thread can be in one of the **following states**
