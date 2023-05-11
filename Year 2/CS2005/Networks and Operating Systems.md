@@ -17,7 +17,7 @@
 
 #### Grade matrix
 
-![grade matrix](cs2005-gradematrix.png))
+![grade matrix](cs2005-gradematrix.png)
 
 
 ### Structure
