@@ -14,8 +14,9 @@
 	- Concurrency and parallelism
 	- What is a thread?
 	- Threads states and lifecycle (in Java)
-- [Critical section problem](critical%20section%20problem.md)
-	- Critical section problem solution requirements
+- [Synchronisation](Synchronisation.md)
+	- Critical section problem
+		- Critical section problem solution requirements
 	- Bounded buffer (producer-consumer) problem
 	- Race condition
 	- Mutex locks, semaphores, monitors
