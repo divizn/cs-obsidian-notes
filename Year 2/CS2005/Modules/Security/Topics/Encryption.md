@@ -1,0 +1,9 @@
+- An encryption algorithm consists of the following components: 
+	- A set ***K*** of keys
+	- A set ***M*** of messages
+	- A set ***C*** of ciphertexts
+	- An encrypting function **E : K -> (M -> C)**
+		- for each $k \in K, E_{k}$ generates ciphertexts from messages
+	- A decrypting function **D : K -> (C -> M)
+		- for each $k \in K, D_{k}$ generates messages from ciphertexts
+	- Both ***E*** and ***D*** for any $k$ should be efficiently computable functions
