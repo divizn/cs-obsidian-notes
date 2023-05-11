@@ -47,3 +47,11 @@
 - If source IP addresses can not be trusted, how can an operating system:
 	- Decide whether to grant a request
 	- Provide protection for a request or data when it cannot determine who will receive the response
+
+**NO NETWORK CAN BE TRUSTED**
+
+- So cryptography is used to eliminate the need to trust the network for secure communication
+- Cryptography enables: 
+	- A sender to encode its message so that only a computer with a certain key can decode the message
+	- A recipient of a message to verify that the message was created by some computer processing a certain key
+- Cryptography keys are designed so that it is not computationally feasible to derive them form the messages they were used to generate, or, from any other public information
