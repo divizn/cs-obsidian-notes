@@ -81,4 +81,4 @@ However
 - **Race condition**
 	- When several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place.
 	- We need to ensure that only one process at a time can be manipulating the variable `counter` 
-	- Processes need to be synchronised.
+- Processes need to be synchronised
