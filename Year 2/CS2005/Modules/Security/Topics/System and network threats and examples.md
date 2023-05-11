@@ -22,7 +22,6 @@
 - Exploited UNIX security vulnerabilities
 ![worm](worm.png)
 
-
 ### Port scanning
 
 - Automated attempt to connect to a range of ports on one, or a range of IP addresses
@@ -32,4 +31,3 @@
 
 - Overload the targeted computer preventing it from doing any useful work
 - E.g. applet to start pop up window infinitely
-
