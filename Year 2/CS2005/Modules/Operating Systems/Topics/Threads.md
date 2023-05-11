@@ -166,4 +166,25 @@ public class MyThread extends Thread {
 
 ## Java Threads States
 
-- A thread can be in one of the **following states**
+## A thread can be in one of the **following states**:
+
+- **NEW** - A thread that has not yet started
+	- When a thread is created; it's in a **NEW** state.
+	- At this point, thread is not alive, and, it's a state internal to Java programming
+	- It remains in this state until the program starts the thread using its `start()` method
+- **RUNNABLE** - A thread executing in the JVM
+	- Calling `start()` method on thread puts it in **RUNNABLE** state. 
+	- At this point, execution control is passed to **thread scheduler** to finish it's execution
+	- The OS gives a small amount of processor time to each thread - called a quantum or time-slice - with which to perform its task
+- **BLOCKED** - A thread that is blocked waiting for a monitor lock
+	- A **RUNNABLE** thread **transitions** to the **BLOCKED** state when it attempts to perform a task that cannot be completed immediately and it must temporarily wait until that task completes (e.g. I/O request)
+- **WAITING** - A thread that is waiting indefinitely for another thread to perform a particular action
+	- A thread can be put in waiting state for various reasons, e.g. calling its `wait()` method. 
+	- Usually programs put a thread in **WAIT** state because something else needs to be done prior to what current thread is doing
+	- Relates to `wait()`, `notify()`, and `notifyAll()`
+- **TIMED_WAITING** - A thread that is waiting for another thread to perform an action for up to a specified waiting time
+	- A **RUNNABLE** thread can transition to the **TIMED WAITING** state if it provides an optional wait interval when it's waiting for another thread to perform a task. 
+	- A Java thread is put in **TIMED WAITING** state by calling its `sleep(ms)` or `wait(ms)` methods (where `ms` is milliseconds)
+	- It returns to the **RUNNABLE** state when its notified by another thread or when the timed interval expires - whichever comes first
+- **TERMINATED** - A thread that has exited
+	- A thread enters the **TERMINATED** state (sometimes called the dead state) when it successfully completes its task or otherwise terminated due to any error or even it was forcefully killed
