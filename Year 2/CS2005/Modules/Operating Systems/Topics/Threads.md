@@ -36,4 +36,19 @@
 	- Meaning that it processes multiple tasks, concurrently, at the same time (multi-core CPU or multiple CPUs)
 
 
-# What is a thread? 
+# What is a thread?
+
+- A thread is a basic unit of CPU utilisation
+- It consists of:
+	- Thread ID
+	- Program Counter
+	- Register Set
+	- Stack
+- It shares with other threads belonging to the same process, its code section, data section, and other operating system resources (e.g. files, etc.)
+- A traditional (or **heavyweight**) process has a single thread of control
+- If a process has multiple threads of control, it can perform more than one task at a time
+
+###### Examples
+
+- A web browser might have one thread that displays images or text, and another thread that retrieves data from the network
+- A word processor may have a thread for displaying graphics, another for responding to keystrokes from the user, and another for performing spelling and grammar checking in the background
