@@ -188,3 +188,15 @@ public class MyThread extends Thread {
 	- It returns to the **RUNNABLE** state when its notified by another thread or when the timed interval expires - whichever comes first
 - **TERMINATED** - A thread that has exited
 	- A thread enters the **TERMINATED** state (sometimes called the dead state) when it successfully completes its task or otherwise terminated due to any error or even it was forcefully killed
+
+
+
+# Practice Questions
+
+
+1. What is the difference between concurrency and parallelism? 
+	- Parallelism means that processes can run at the same instance due to there being multicore capabilities, and concurrency mimics this by using time-slicing and splitting a process into microtasks.
+2. What are threads, how are they used and what are their benefits?
+	- A **software** thread is a basic unit of CPU utilisation
+	- It consists of a program counter, thread id, register set, and a stack.
+	- An example is a thread that handles displaying images and text on a web browser
