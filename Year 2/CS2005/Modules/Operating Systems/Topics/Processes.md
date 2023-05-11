@@ -19,3 +19,9 @@
 - Jobs, user programs. OS programs, tasks, unit of work, etc.
 - Essentially a program that is being executed on an OS
 	- A program converted into an executable (file) becomes a process when it is run and loaded into memory
+
+
+# What is a process made of?
+
+![what is a process made of diagram](process-diagram.png)
+
