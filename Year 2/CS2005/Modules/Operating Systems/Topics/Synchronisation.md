@@ -186,6 +186,21 @@ wait(semaphore S) {
 - **Priority inversion** - scheduling problem when lower-priority process holds a lock needed by higher-priority process - solved via priority-inheritance protocol
 ![](philospher-example.png)
 
-# Monitors
+## Monitors
 
 - A high-level abstraction that provides a convenient and effective mechanism for process synchronisation
+- Abstract data type, internal variables only accessible by code within the procedure
+- Only one process may be active within the monitor at a time
+- But the monitor construct is not sufficiently powerful to model some synchronisation schemes but can add detail
+
+
+# Key Questions/Takeaway
+
+1. What can go wrong when two or more processes access the same data?
+	- The Critical Section Problem
+2. What is the general solution to this?
+	- Peterson's Solution
+3. What different approaches can you use to implement this in software?
+	- Mutex locks, semaphores, monitors
+4. Can you give 2 examples of classic synchronisation problems?
+	- Bounded buffer, dining philosophers
