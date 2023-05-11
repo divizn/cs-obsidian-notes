@@ -52,3 +52,20 @@
 
 - A web browser might have one thread that displays images or text, and another thread that retrieves data from the network
 - A word processor may have a thread for displaying graphics, another for responding to keystrokes from the user, and another for performing spelling and grammar checking in the background
+
+# Benefits of threads
+
+- **Responsiveness**
+	- Multithreading an interactive application allows a program to continue running even if part of its blocked and/or is performing a lengthy operation
+- **Resource sharing**
+	- Processes can only share resources through techniques such as shared memory and message passing
+	- Threads share the memory and the resources of the process to which they belong by default
+	- The benefit of sharing code and data is that it allows an application to have several different threads of activity within the same address space
+- **Economy**
+	- Allocating memory and resources for process creation is costly
+	- Since threads share the resources of the process to which they belong, it is more economical to create and context-switch threads (e.g. in Solaris, creating a process is about thirty times slower than it is creating a thread. Context switching is about five times slower)
+
+
+# Single-threaded process vs multithreaded process
+
+![](threads.png)
