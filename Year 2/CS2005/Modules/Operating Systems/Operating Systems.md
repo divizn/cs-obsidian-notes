@@ -6,6 +6,10 @@
 - [System calls](system%20calls.md)
 - [System programs](system%20programs.md)
 - [Processes](processes.md)
+	- Structure 
+	- PCB
+	- Process states and lifecycle
+	- Process scheduling (schedulers, queues, …)
 - Concurrency / parallelism
 - What is a thread?
 - Threads states and lifecycle (in Java)
