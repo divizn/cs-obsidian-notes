@@ -2,8 +2,8 @@
 # Topics
 
 - [Operating systems services](operating%20systems%20services.md)
-- Operating systems interfaces (users, programs)
-- System calls
+- [Operating systems interfaces](operating%20systems%20interfaces.md)
+- [System calls](system%20calls.md)
 - System programs
 - What is a process (structure, PCB, …)?
 - Process states and lifecycle
