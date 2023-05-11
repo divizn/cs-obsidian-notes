@@ -160,8 +160,7 @@
 - System and network threats and examples
 - Cryptography terms
 - Encryption 
-- Symmetric encryption and example algorithms
-- Asymmetric encryption and example algorithms
+- Symmetric encryption and asymmetric encryption and example algorithms
 
 
 
