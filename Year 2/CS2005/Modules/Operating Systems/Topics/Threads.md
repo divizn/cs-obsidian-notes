@@ -12,3 +12,8 @@
 	- Requires two or more CPUs/cores
 
 - Concurrency and parallelism are ***not*** the same thing - but they both need synchronisation
+
+![](seq-ex-example.png)
+![](conc-ex-example.png)
+![](para-ex-example.png)
+![](para-conc-ex-example.png)
