@@ -50,4 +50,28 @@
 # Process scheduling
 
 - The process scheduler is responsible for choosing and running processes
-- When a process is allocated, the CPU it executes for a while and eventually quits, is interrupted, or waits for the occurrence of a particular event, such as the completion of an I/O request
+- OS has to decide which processes run, and how long they get
+- The process scheduler needs a job queue, a ready queue, a device queue and others
+
+- **Job queue** - consists of all processes in the system
+- **Ready queue** - processes that are residing in main memory and are ready and waiting to execute
+- **Device queue** - a process wishes to make an I/O request to a shared device (e.g. a disk, screen, kb, printer, etc.) but the device might be busy dealing with another I/O request so the device queue is a list of the processes waiting to use the device
+
+- Queues are generally stored as a linked list 
+	- a ready-queue header contains pointers to the first and final PCBs in the list. Each PCB includes a pointer field that points to the next PCB in the ready queue
+
+
+# Schedulers
+
+- **Short-term scheduler** (or CPU scheduler)
+	- Selects which process should be executed next and allocates CPU
+	- Sometimes the only scheduler in a system
+	- Short-term scheduler is invoked frequently (milliseconds) - must be fast
+- **Long-term scheduler** (or job scheduler)
+	- Selects which processes should be brought into the ready queue
+	- Long-term scheduler is invoked infrequently (seconds, minutes) - might be slow
+	- Long-term scheduler controls the degree of multiprogramming
+	- Strives for good process mix
+- Processes can be described as either:
+	- I/O bound process -spends more time doing I/O than computations, many short CPU bursts
+	- CPU-bound process - spends more time doing computations; few very long CPU bursts
