@@ -193,7 +193,6 @@ public class MyThread extends Thread {
 
 # Practice Questions
 
-
 1. What is the difference between concurrency and parallelism? 
 	- Parallelism means that processes can run at the same instance due to there being multicore capabilities, and concurrency mimics this by using time-slicing and splitting a process into microtasks.
 2. What are threads, how are they used and what are their benefits?
