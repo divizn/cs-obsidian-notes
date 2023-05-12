@@ -239,3 +239,36 @@
 
 # Electronic mail
 
+- The e-mail has **3 major components**:
+	- **User agents** - compose edit, read and save outgoing and incoming messages stored on servers
+	- **Mail servers** - have a **mailbox** (incoming messages); a **message queue** (outgoing messages); and an **SMTP implementation**
+	- **Simple Mail Transfer Protocol (SMTP)** - protocol between mail servers to send email messages
+		- Client - sending emails
+		- Server - receiving emails
+
+## SMTP
+
+- **SMTP** uses **TCP** for reliable email transfer
+- Usually at port 25
+- Normally the sending server connects directly to the receiving server (direct transfer)
+- SMTP has **3 phases** of transfer
+	- Handshaking (greeting)
+	- Transfer of messages
+	- Closure
+- Command/Response Interaction
+	- Commands: ASCII text
+	- Response: status code and phrase
+- Message *must* be in 7-bit ASCII
+
+![](sample-smtp.png)
+
+- Mail message format
+	- Header lines, e.g.
+		- To:
+		- From:
+		- Subject
+	- **these are different from SMTP MAIL FROM, RCPT TO - these are commands**
+	- Body: the "message" separated by a blank line (CRLF, LF)
+
+![](smtp-visual.png)
+
