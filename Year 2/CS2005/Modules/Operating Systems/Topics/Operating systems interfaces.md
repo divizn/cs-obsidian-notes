@@ -20,7 +20,7 @@
 	- Script to run tasks at a certain time using stuff like Windows Task Scheduler
 
 
-### Graphical User Interface (GUI)
+# Graphical User Interface (GUI)
 
 - User-friendly **desktop metaphor** interface
 - Usually mouse, keyboard, and monitor used
