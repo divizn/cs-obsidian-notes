@@ -97,15 +97,28 @@
 ###### Example questions:
 
 1. Discuss how two processes communicate over a network. Include in your answer the role of Sockets, Ports, IP Addresses, and what is required from Transport Services available to Applications.
+	-  Process send and receive messages from their sockets
+	- Ports and identifiers are what is used to identify processes
+	- Transport services use this to provide logical communication between application processe
 
 2. Define Multiplexing and Demultiplexing in the Transport Layer. Discuss how Transport Layer segments are sent and received in connectionless and connection-oriented protocols
-
+	- Multiplexing -  the job of gathering data chunks from different sockets, encapsulating each data chunk with header information to create segments, and passing the segments to the network layer
+	- Demultiplexing - the job of delivering the received segments to the correct socket
 
 #### Question 3: Short Essay
 
 ###### Example questions:
 
-1. What are system programs? What is their purpose and how are they different form application programmes? Discuss **FIVE** categories of system programs.
+1. What are system programs? What is their purpose and how are they different from application programs? Discuss **FIVE** categories of system programs.
+	- System programs (also known as system utilities) are programs used by the system to perform generic tasks (usually utilities made by the OS and used by other programs). 
+	- Some are just simple interfaces for system calls
+	- Some are complex e.g. device drivers
+	- Categories 
+		1. File Management - these program manipulate files (create, delete, rename) - example is Dolphin File Manager or Windows Explorer
+		2. File Modification - These programs are used to modify contents of a file - example could be a text editor like VSCode
+		3. Communication - Provide the mechanism for creating connections across processes, users and systems. Allows for stuff like browsing the internet and sending emails
+		4. Status information - Programs that show the status information of the system e.g. CPU usage like in Task Manger
+		5. Program loading and execution - Programs that load the file into memory to be executed e.g. loaders
 
 2. What are the main states of a Java Thread? Discuss the lifecycle of a Java Thread and how it shares runtime with other Threads.
 
