@@ -1,0 +1,3 @@
+- Network layer protocol provides for **logical communication between hosts**
+- The network layer can be decomposed into two interacting parts, the **data plane** and the **control plane**
+- The **data plane** functions include per-router functions in the network layer that determine how a datagram arriving on one of a router's input links is forwards to one of that router's output link

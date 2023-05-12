@@ -17,9 +17,10 @@
 	- TCP, UDP
 		- Segment structure 
 		- (Port #, seq, ack numbers, receive window, …)
-- Forwarding/routing
-	- Routing algorithms
-	- Router components
-- IPv4 & IPv6 datagram
-- IPv4 addressing 
-- Fragmentation / reassembly
+- [Network layer](network%20layer.md)
+	- Forwarding/routing
+		- Routing algorithms
+		- Router components
+	- IPv4 & IPv6 datagram
+	- IPv4 addressing 
+	- Fragmentation / reassembly
