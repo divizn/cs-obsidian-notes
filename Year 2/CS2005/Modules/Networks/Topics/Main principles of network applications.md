@@ -285,4 +285,27 @@
 - **HTTP** - used by Gmail (revolutionised email), Hotmail, Yahoo, etc.
 
 
-# Transpor
+# Transport layer services and protocols
+
+- Transport layer protocols provide **logical communication between application processes** running on different hosts and are implemented in the **end systems** but **not in the network routers**
+- On the **sending side**, the transport layer **converts the application layer messages into transport layer packets (aka segments)** **breaking the messages into smaller chunks and adding a transport layer header**. 
+- The transport layer then passes the segment to the network layer, where **the segment is encapsulated within a network layer packet (aka datagram)** and sent to the destination.
+- On the **receiving side**, the network layer **extracts the transport layer segment from the datagram and passes it up to the transport layer**. The transport layer then processes the received segment, **making the data in the segment available to the receiving application**
+- Note: the network routes act only on the network layer fields of the datagram, they don't examine the fields of the transport layer segment encapsulated within the datagram
+
+
+# Transport layer and network layer
+
+-  Relationship between the transport layer and the network layer:
+	- The transport layer provides **logical communication between processes** 
+	- The network layer provides **logical communication between hosts**
+	- The transport layer *relies* on the network layer and enhances the network layer services
+	- The IP service model is a best effort delivery service
+- There are more than one transport protocols available (TCP and UDP)
+
+## Transport layer services to application
+
+- Process-level addressing
+	- Used to differentiate between processes
+	- Network layer addressing identifies hosts
+- **Multiplexing (mux)** and **Demultiplexing (demux)**
