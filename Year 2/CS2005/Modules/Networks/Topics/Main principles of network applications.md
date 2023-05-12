@@ -149,3 +149,24 @@
 	- SSL socket API
 		- Cleartext passwords sent into socket, traverse Internet encrypted (safer)
 
+
+# Web and HTTP
+
+- **Hypertext transfer protocol (HTTP)**, web's application layer protocol defined in RFC and uses port 80
+- A web page consists of objects (e.g. HTML, CSS, PNG image, Java applet, audio file,...)
+- The base HTML file includes several referenced objects; each object is addressable by a URL
+	- e.g. www.someschool.edu/someDept/pic.gif
+		- someschool - host name
+		- edu - domain name (on dns)
+		- /someDept/pic.gif - path
+
+## HTTP overview
+
+- HTTP is a **client/server** protocol
+	- The **client** - typically a browser - requests, receives and displays web objects (HTML, JS, CSS)
+	- The **web server** - sends objects in response to request. The HTTP server is **stateless** (doesn't keep track of state)
+- HTTP uses **TCP** as its transport protocol
+	- The HTTP client first initiates a TCP connection with the server
+	- Once the connection is established, the browser and the server processes access TCP through their socket interfaces
+	- The client sends HTTP request messages and receives HTTP response messages
+	- 
