@@ -169,4 +169,33 @@
 	- The HTTP client first initiates a TCP connection with the server
 	- Once the connection is established, the browser and the server processes access TCP through their socket interfaces
 	- The client sends HTTP request messages and receives HTTP response messages
-	- 
+	- The server receives request messages and sends response messages
+
+## HTTP connections
+
+- There are **two** types of HTTP connections:
+	- **Non-persistent HTTP**
+		- At most, one object is sent over a TCP connection and then the connection is closed
+		- Requires multiple connections to download multiple objects
+	- **Persistent HTTP**
+		- Multiple objects can be sent over single TCP connection therefore not requiring multiple connections to download multiple objects
+
+### Non-persistent HTTP
+
+- Example: Transferring a web page from server to client. The page consists of a base HTML file and 10 JPEG images and all 11 objects reside on the same server
+
+1. Client: Initiates connection
+2. Server: Accepts and notifies client
+3. Client: Request - HTML file
+4. Server: Response - sends file and closes TCP connection
+5. Client: Process HTML and finds 10 referenced jpeg objects
+6. Repeat for **all** 10 objects
+
+#### Response time
+
+- **Round-trip time (RTT)** is the time it takes for a small packet to travel from client to server and then back to the client (including delays; packet-propagation delays, packet-queueing delays in intermediate routers and switches, and packet-processing delays)
+- HTTP response time:
+	- TCP connection: 1 RRT
+	- File request + response: ! RRT
+	- File transmission time
+- Non-persistent HTTP response time is 2RTT + file transmission time (roughly)
