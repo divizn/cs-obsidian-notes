@@ -28,4 +28,3 @@
 ## Protocol stack
 
 ![](pcol-stack.png)
-
