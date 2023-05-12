@@ -72,3 +72,18 @@
 
 ![](socket-diag.png)
 
+
+## Addressing processes
+
+- To receive messages, process must have an **identifier**
+- Identifier includes both **IP address** and **port numbers** associated with process on host
+- Host device has a unique 32-bit IP address
+- Example of port numbers:
+	- HTTP server: Usually on port 80
+	- Mail server: Port 25
+- To send HTTP message to a web server:
+	- IP address: x.x.x.x
+	- Port number: 80
+- Does IP address of host on which process runs suffice for identifying the process?
+	- No, many processes can be run on same host, which is why we need the **port** to identify where on that host
+
