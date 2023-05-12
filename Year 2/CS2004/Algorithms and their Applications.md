@@ -20,6 +20,8 @@ The coursework consist of two tasks:
 - **Task #2 will be held in-person during the May examination period**.  
 - A description of the task (Task #2 Assessment Brief) is to be released in week 23.
 
+![task 2](task2.pdf)
+
 ### **Examination (40%)**
 
 - **The examination will be on WiseFlow and will be held during the University’s May examination period**.   
