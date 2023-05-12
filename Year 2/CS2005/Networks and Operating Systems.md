@@ -110,7 +110,8 @@
 ###### Example questions:
 
 1. What are system programs? What is their purpose and how are they different from application programs? Discuss **FIVE** categories of system programs.
-	- System programs (also known as system utilities) are programs used by the system to perform generic tasks (usually utilities made by the OS and used by other programs). 
+	- System programs (also known as system utilities) are programs used by the system to perform  tasks (usually utilities made by the OS and used by other programs). 
+	- Different to application programs which are programs used by the user to perform tasks e.g. stuff like Microsoft Word
 	- Some are just simple interfaces for system calls
 	- Some are complex e.g. device drivers
 	- Categories 
