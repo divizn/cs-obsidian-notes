@@ -63,3 +63,12 @@
 - Applications with P2P architectures have client and server processes
 
 
+# Sockets
+
+- Process sends/receives messages to/from its **socket**
+- Socket analogous to a door
+	- Sending process shoves message out of door
+	- Sending process relies on transport infrastructure on other side of door to deliver message to socket at receiving process
+
+![](socket-diag.png)
+
