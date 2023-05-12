@@ -272,3 +272,14 @@
 
 ![](smtp-visual.png)
 
+## Mail access protocols
+
+- SMTP is a **push protocol** - The receiver user agent cannot request to obtain emails from the receivers server using SMTP. 
+- Obtaining the message is a pull operation
+- **Mail access protocols** transfer messages from the receiver's mail server to the recipients user agent
+- **Post Office Protocol version 3 (POP3)** - 3 phases:
+	- **Authorisation** - User agent sends a username and a password
+	- **Transaction** - User agent retrieves messages; can mark messages for deletion, remove deletion marks, and obtain mail statistics
+	- **Update** - after the client has issued the `quit` command (ending the POP3 session), the mail server deletes the messages that were marked for deletion
+- **Internet Mail Access Protocol (IMAP)** - more features, including manipulation of stored messages on a server
+- **HTTP** - used by Gmail (revolutionised email), Hotmail, Yahoo, etc.
