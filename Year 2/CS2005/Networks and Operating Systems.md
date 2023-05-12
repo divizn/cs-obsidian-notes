@@ -81,7 +81,7 @@
 	- Application processes
 5. Is a "link state" routing algorithm centralised or decentralised?
 6. Memory can be dynamically allocated to a process during runtime. What is it called?
-	- Dynamic memory allocation (?)
+	- Dynamic memory allocation (?) Heap (?)
 7. Does a thread share its code section with other threads belonging to the same process?
 	- Yes
 8. In which part of its code can a process change shared variables?
