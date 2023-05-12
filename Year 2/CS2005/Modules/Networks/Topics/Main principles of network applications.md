@@ -196,6 +196,46 @@
 - **Round-trip time (RTT)** is the time it takes for a small packet to travel from client to server and then back to the client (including delays; packet-propagation delays, packet-queueing delays in intermediate routers and switches, and packet-processing delays)
 - HTTP response time:
 	- TCP connection: 1 RRT
-	- File request + response: ! RRT
+	- File request + response: 1 RRT
 	- File transmission time
 - Non-persistent HTTP response time is 2RTT + file transmission time (roughly)
+
+### Persistent HTTP
+
+- The server leaves the connection open after sending the response message
+- Subsequent HTTP messages between the same client/server are sent over the open connection
+- The client sends requests as soon as it encounters a referenced object
+- It can take as little as one RTT for **all** the referenced objects
+
+### HTTP request message
+
+![](format-http.png)
+
+
+### HTTP response message
+
+![response](format-http2.png)
+
+
+## HTTP User-server state: cookies
+
+- HTTP is **stateless**
+- But often, it is useful that the server keeps session state information (e.g. identify users so you can restrict user access or serve content as a function of the user's identity)
+- HTTP uses **cookies** for this purpose
+- An **HTTP cookie** has four components:
+	1. A cookie header line in the HTTP response message;
+	2. A cookie header line in the HTTP request message;
+	3. A cookie file kept on the user's end system and managed by the user's browser (stored in browser);
+	4. a beck-end database at the Web site
+
+## Web caches (proxy server)
+
+- A web cache satisfies HTTP requests on behalf of an origin web server.
+- It is both a client (to the original server) and a server (to the client)
+- Web caching reduces response time and network traffic (access link to the internet)
+- A web cache stores a copy of a requested object in its local storage and sends a copy to the client browser
+- To avoid **stale** data, HTTP uses **conditional GET** manifested by the `If-Modified-Since:` and `Last-Modified:` header lines
+
+
+# Electronic mail
+
