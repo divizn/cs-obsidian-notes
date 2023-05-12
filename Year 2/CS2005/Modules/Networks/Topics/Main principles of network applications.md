@@ -52,7 +52,7 @@
 	- Complex management
 
 
-# Processes communciating
+# Processes communicating
 
 - Process: program running within a host
 	- Within same host, two processes communicate using inter-process communication (defined by OS)
@@ -86,4 +86,66 @@
 	- Port number: 80
 - Does IP address of host on which process runs suffice for identifying the process?
 	- No, many processes can be run on same host, which is why we need the **port** to identify where on that host
+
+## App-layer protocol defines
+
+- Types of messages exchanged
+	- e.g. request, response
+- Open protocols:
+	- Defined in RFCs
+	- Allows for interoperability
+	- e.g. HTTP, SMTP, SSH
+- Proprietary protocols:
+	- e.g. Skype
+- Message syntax
+	- What fields in messages & how fields are defined
+- Message semantics
+	- Meaning of information in fields
+- Rules for when and how processes send and respond to messages
+
+
+# Transport service
+
+## What transport service does an app need? 
+
+- **Data integrity**
+	- Some apps (e.g. file transfer, web transactions) require 100% reliable data transfer
+	- Other aps (e.g. audio) can tolerate some loss
+- **Timing**
+	- Some apps (e.g. internet telephony, interactive games) require low delay to be effective/responsive
+- **Throughput**
+	- Some apps (e.g. multimedia) require minimum amount of throughput to be effective
+	- Other apps ("elastic apps") make use of whatever throughput they get
+- **Security**
+	- Encryption, data integrity
+
+## Internet transport protocols services
+
+- **TCP** service:
+	- **Reliable transport** between sending and receiving process
+	- Flow control: sender won't overwhelm receiver
+	- Congestion control: throttle sender when network overloaded
+	- Does not provide: timing, minimum throughput guarantee, security
+	- Connection-oriented: setup required between client and server processes
+	- Was made as a kind-of "replacement" for UDP
+- **UDP** service:
+	- **Unreliable data transfer** between sending and receiving process
+	- Does not provide: reliability, flow control, congestion control, timing, throughput guarantee, security, or connection setup
+	- Was made before **TCP**
+
+
+## Securing TCP
+
+- TCP & UDP
+	- No encryption
+	- Cleartext passwords sent into socket, traverse internet in cleartext (not safe)
+- TLS/SSL
+	- Provides an **encrypted** TCP connection
+	- Data integrity
+	- Endpoint authentication
+
+- SSL is at the app layer
+	- Apps use SSL libraries, that "talk" to TCP
+	- SSL socket API
+		- Cleartext passwords sent into socket, traverse Internet encrypted (safer)
 

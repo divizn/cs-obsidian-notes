@@ -6,15 +6,15 @@
 	- (OSI, TCP/IP)
 - [Main principles of network applications](Main%20principles%20of%20network%20applications.md)
 	- (Client-server, P2P, message exchange, IP addresses, sockets, port numbers, data integrity, throughput, …)
-- Web services 
-	- (HTTP, messages, request, response, headers, …)
-- Electronic mail over the Internet 
-	- (User agent, mail server, SMTP, POP3, IMAP, HTTP, …)
-- How processes communicate 
-	- (Messages, sockets, port numbers, IP addresses, …)
-- Transport services 
-	- (Mux/demux, reliable data transfer, flow control, congestion control, …)
-- TCP, UDP
+	- Web services 
+		- (HTTP, messages, request, response, headers, …)
+	- Electronic mail over the Internet 
+		- (User agent, mail server, SMTP, POP3, IMAP, HTTP, …)
+	- How processes communicate 
+		- (Messages, sockets, port numbers, IP addresses, …)
+	- Transport services 
+		- (Mux/demux, reliable data transfer, flow control, congestion control, …)
+	- TCP, UDP
 - Segment structure 
 	- (Port #, seq, ack numbers, receive window, …)
 - Forwarding/routing

@@ -27,7 +27,7 @@
 
 - Internet - interconnected ISPs
 - Protocols - control sending and receiving messages (e.g. HTTP, IP, TCP, SMTP, 802.11)
-- Internet standards
+- Internet standards (in RFC document made by the IETF)
 	- RFC: Request for comments
 	- IETF: Internet Engineering Task Force
 
