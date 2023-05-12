@@ -309,3 +309,12 @@
 	- Used to differentiate between processes
 	- Network layer addressing identifies hosts
 - **Multiplexing (mux)** and **Demultiplexing (demux)**
+	- Sender side: **multiplexing** data from many processes for transport
+	- Receiver side: **demultiplexing** data received and directs it to appropriate processes
+- Integrity checking - error detection
+- Connection management (establishment and termination)
+	- If connection-oriented protocol (e.g. TCP)
+- Acknowledgements and Retransmissions
+	- If reliable service (e.g. TCP)
+- Flow control
+	- If in-order delivery service (e.g. TCP)
