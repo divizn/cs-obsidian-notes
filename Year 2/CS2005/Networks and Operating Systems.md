@@ -76,7 +76,7 @@
 2. The Internet Standards are described in formal documents. What are these documents called?
 	 - RFC (Request for comments)
 3. What is the interface between a process and the network?
-	- Network interface
+	- Socket
 4. Complete the phrase: "The Transport layer provides logical communication between \_\_\_\_\_\_."
 	- Application processes
 5. Is a "link state" routing algorithm centralised or decentralised?
