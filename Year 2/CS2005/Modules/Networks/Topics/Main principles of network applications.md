@@ -318,3 +318,41 @@
 	- If reliable service (e.g. TCP)
 - Flow control
 	- If in-order delivery service (e.g. TCP)
+
+
+# Multiplexing/demultiplexing
+
+- Transport layer **multiplexing and demultiplexing** essentially **extends the host-to-host** delivery service provided by the network layer **to a process-to-process** delivery service for applications running on the hosts
+- At the **sending host**, the job of gathering data chunks from different sockets, encapsulating each data chunk with header information to create segments, and passing the segments to the network layer is called **multiplexing**
+- At the **destination host**, the job of delivering the received segments to the correct socket is called demultiplexing
+
+- Sockets have unique identifiers (mentioned previously), the format of the identifier depends on whether the socket is a **UDP or a TCP** socket
+- **Connectionless demux** - **A UDP socket** is fully identified by a **2-tuple consisting of a destination IP address and destination port number**
+	- If 2 UDP segments have different source IP addresses and/or source port numbers, but have the same destination IP address and destination port number, then the two segments will be directed to the same destination process via the same destination socket
+- **Connection-oriented demux** - **A TCP socket** is identified by a **4-tuple consisting of a source IP address, a source port number, a destination IP address and a destination port number**
+	- When a TCP segment arrives from the network to a host, the host uses all four values to direct (demultiplex) the segment to the appropriate socket
+	- In contrast with UDP, two arriving TCP segments with different source IP addresses or source port numbers will (with exception of a TCP segment carrying the original connection establishment request) be directed to 2 different sockets
+
+
+# How do web servers use port numbers?
+
+- Consider a host running a web server, such as an Apache Web server (or nginx), on port 80.
+- When a client (e.g. browser) sends segments to the server, all segments will have destination port 80.
+- Both the initial connection-establishment and the segments carrying HTTP request messages will have destination port 80.
+-  The server distinguishes the segments from the different clients using source IP addresses and source port numbers
+- A web server spawns a new process for each connection
+	- Each of these processes has its own connection socket through which HTTP requests arrive and HTTP responses are sent
+- There is not always a one-to-one correspondence between connection sockets and processes
+- Web servers often use **only one process** and create a **new thread with a new connection socket for each new client connection**
+	- A thread can be viewed as a lightweight subprocess
+	- For such a server, at any given time, there may be many connection sockets (with different identifiers) attached to the same process
+- If the client and server are using **persistent HTTP**, then throughout the duration of the persistent connection, the client and server exchange HTTP messages via the same server socket
+- If the client and server are using **non-persistent HTTP**, then a new TCP connection is created and closed for every request/response, and hence a new socket is created and later closed for every request/response. 
+	- This can severely impact the performance of a web server
+
+
+# Connectionless transport: User Datagram Protocol (UDP)
+
+- At the very least, the transport layer has to provide a **mux/demux** service in order to pass data between the network layer and the correct application-level process
+- UDP aside from the mux/demux function and some light error checking, adds nothing to IP
+- UDP takes messages from the application process, attached source and destination port number fields for the mux/demux service, adds two other small fields, and passes the resulting segment to the network layer

@@ -15,8 +15,8 @@
 	- Transport services 
 		- (Mux/demux, reliable data transfer, flow control, congestion control, …)
 	- TCP, UDP
-- Segment structure 
-	- (Port #, seq, ack numbers, receive window, …)
+		- Segment structure 
+		- (Port #, seq, ack numbers, receive window, …)
 - Forwarding/routing
 	- Routing algorithms
 	- Router components
