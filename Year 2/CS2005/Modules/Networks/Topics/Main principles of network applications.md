@@ -356,3 +356,50 @@
 - At the very least, the transport layer has to provide a **mux/demux** service in order to pass data between the network layer and the correct application-level process
 - UDP aside from the mux/demux function and some light error checking, adds nothing to IP
 - UDP takes messages from the application process, attached source and destination port number fields for the mux/demux service, adds two other small fields, and passes the resulting segment to the network layer
+- If the segment arrives at the receiving host, UDP uses the destination port number to deliver the segment's data to the correct application process
+
+## UDP segment structure
+
+- The **length** field specifies the number of bytes in the UDP segment (header plus data)
+	- An explicit length value is needed since the size of the data field may differ from one UDP segment to the next
+- The **checksum** is used by the receiving host to check whether errors have been introduced into the segment
+	- At sender: treat segment contents (including header fields as sequence of 16-bit integers, checksum: addition (one's complement sum)) of segment contents
+	- At receiver: compute checksum of received segment, check if computed checksum field value
+
+![udp segemnt format](udp-seg-struct.png)
+
+
+# Connection-oriented transport: Transmission Control Protocol (TCP)
+
+- Two processes must first **"handshake"** with each other before they can begin to send data to each other
+	- They must send some preliminary segments to each other to establish the parameters of the resultant data transfer.
+	- As part of TCP connection establishment, both sides of the connection will initialise many TCP state variables associated with the TCP connection
+- The **TCP "connection" is a logical one** with common state residing only in the TCPs in the two communicating end systems
+	- TCP protocol runs only in the end systems and not in the intermediate network elements (routers and link layer switches) so they do not maintain TCP connection state
+	- The intermediate routers are completely oblivious to TCP connections
+- A TCP connection provides a **full-duplex** service
+	- If there is a TCP connection between process A on one host, and process B on another host, then application layer data can flow from process A to process B at the same time as application layer data flows from process B to process A
+- A TCP connection is always **point-to-point** - between a single sender and receiver
+- This connection-establishment procedure is often referred to as a **three-way** handshake
+	- Suppose a process running in one host wants to initiate a connection with another process in another host, the client first informs the client transport layer that it wants to establish a connection to a process in the server by sending a special TCP segment. 
+	- The server responds with a second special TCP segment
+	- Client then responds again with a third special segment
+	- The first 2 segments carry no payload (no application layer data); the third of these segments may carry a payload
+
+
+## The TCP connection
+
+- A TCP connection consists of buffers, variables, and a socket connection to a process in one host, and another set of buffers, variables, and a socket connection to a process in another host
+	- No buffers or variables are allocated to the connection in the network elements (routers, switches and repeaters) between the hosts
+- The client process passes a stream of data through the socket
+	- Once the data passes through the socket, TCP running in the client handles it
+	- TCP directs this data to the connection's send buffer (one of the buffers created during the three-way handshake).
+	- From time to time, TCP will grab chunks of data from the send buffer and pass the data to the network layer
+- The maximum amount of data that can be grabbed and placed in a segment is **limited by the maximum segment size (MSS)**
+	- MSS is typically set by first determining the length of the largest link layer frame that can be sent by the local sending host (the maximum transmission unit; MTU) to ensure that a TCP segment (when encapsulated in an IP datagram) plus the TCP/IP header length (usually 40 bytes) will fit into a single link layer frame
+	- The MSS is the maximum amount of application-layer data in the segment; not the maximum size of the TCP segment including headers
+- TCP pairs each chunk of client data with a TCP header, forming TCP segments
+	- The segments are passed down to the network layer, where they are separately encapsulated within network layer IP datagrams. The IP datagrams are then sent into the network
+- When TCP receives a segment at the other end, the segment's data is placed into the TCP connection's receive buffer
+	- The application reads the stream of data from this buffer
+	- Each side of the connection has its own send buffer and receive buffer

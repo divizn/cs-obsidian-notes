@@ -72,15 +72,24 @@
 ###### Example questions:
 
 1. Which two of the OSI model's layers are NOT included in the TCP/IP stack?
+	- Presentation and session
 2. The Internet Standards are described in formal documents. What are these documents called?
+	 - RFC (Request for comments)
 3. What is the interface between a process and the network?
+	- Network interface
 4. Complete the phrase: "The Transport layer provides logical communication between \_\_\_\_\_\_."
+	- Application processes
 5. Is a "link state" routing algorithm centralised or decentralised?
 6. Memory can be dynamically allocated to a process during runtime. What is it called?
 7. Does a thread share its code section with other threads belonging to the same process?
+	- Yes
 8. In which part of its code can a process change shared variables?
+	- Critical section
 9. Is Trojan Horse an example of program threat?
+	- Yes
 10. For the screenshot of Wireshark examining HTTP behaviour; what are the IP addresses and port number of the client host? ![wireshark](wireshark-exam-q.png)
+		- Client IP address - 10.0.2.4
+		- Client port number - 55754
 
 #### Question 2: Short Essay
 
