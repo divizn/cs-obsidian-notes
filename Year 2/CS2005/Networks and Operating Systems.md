@@ -128,8 +128,21 @@
 ###### Example questions:
 
 1. Discuss **THREE** types of Program Threats. Give an example for each one.
+	- Trojan Horse - A program pretending to be something else e.g. a fake login system that contains malicious code
+	- Trapdoor - A defect in a program that allows malicious actors to exploit the flaw e.g. security risk in a website that leaks database credential
+	- Logic bomb - Malicious code that runs at a certain date/time e.g. something that runs every 2 days to get information from someone's computer
 
 2. What are accidental or malicious security violations? Discuss **FOUR** types and **THREE** levels at which security measures could be taken.
+	- Security violations are attacks on a system that are usually done with malicious intent however can be done accidental
+	- Types:
+		1. Breach of confidentiality - Involves gaining unauthorised access to information e.g. credit cards
+		2. Theft of service - Unauthorised access of resources e.g. stealing a proprietary program
+		3. Denial of service - Preventing legitimate use of the system by overloading the server with illegitimate traffic using bots
+		4. Breach of integrity - Involves manipulating data and changing it from what it used to be e.g. changing the content of a website
+	- Levels:
+	1. Human - Avoid social engineering, phishing and dumpster diving in an attempt to find information that could cause a security risk
+	2. Operating system - Protection mechanics and debugging, make sure your OS is up-to-date with latest security features
+	3. Network - Intercepted communication and DOS - avoid by throttling connection which could prevent bots from overwhelming server and avoid accessing private information on an open/public network as packet sniffers could be watching
 
 
 
