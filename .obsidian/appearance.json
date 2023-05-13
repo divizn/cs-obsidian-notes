@@ -1,4 +1,9 @@
 {
-  "accentColor": "",
-  "baseFontSize": 14
+  "accentColor": "#3705c2",
+  "baseFontSize": 14,
+  "cssTheme": "Proper Dark",
+  "translucency": true,
+  "nativeMenus": true,
+  "textFontFamily": "Inter",
+  "interfaceFontFamily": "Inter"
 }

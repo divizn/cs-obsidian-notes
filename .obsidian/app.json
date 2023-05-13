@@ -1,4 +1,9 @@
 {
   "alwaysUpdateLinks": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "trashOption": "system",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./"
 }
