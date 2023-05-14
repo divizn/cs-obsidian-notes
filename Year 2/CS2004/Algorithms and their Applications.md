@@ -30,3 +30,9 @@ The coursework consist of two tasks:
 - The examination paper is to consists of multiple choice questions (20 in total) [40%] and written format questions (4 main questions with each question consisting of sub-questions) [60%].  
 - It will assess the theoretical aspects of the module (mainly what we cover in the lectures)  
 - It will NOT contain any programming exercises but you may be asked to write pseudocode
+
+
+
+# Topics
+
+- [Algorithms](algorithms.md)
