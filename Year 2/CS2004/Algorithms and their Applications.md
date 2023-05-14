@@ -36,3 +36,8 @@ The coursework consist of two tasks:
 # Topics
 
 - [Algorithm Basics](Algorithm%20Basics.md)
+- [Foundation of Algorithm Analysis](Foundation%20of%20Algorithm%20Analysis.md)
+- [Mathematical Foundation](Mathematical%20Foundation.md)
+- [Searching and sorting](Searching%20and%20sorting.md)
+- [Data Structures](data%20structures.md)
+

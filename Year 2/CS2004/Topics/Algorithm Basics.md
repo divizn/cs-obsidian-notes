@@ -91,9 +91,3 @@ endif
 - Since there is only one comparison on each level, the **worst case** is to conduct $\log(N+1)$
 
 
-
-# Topics
-
-[Foundation of Algorithm Analysis](Foundation%20of%20Algorithm%20Analysis.md)
-[Mathematical Foundation](mathematical%20foundation.md)
-[Searching and sorting](Searching%20and%20sorting.md)
