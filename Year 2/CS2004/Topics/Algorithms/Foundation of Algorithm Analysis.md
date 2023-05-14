@@ -52,14 +52,14 @@
 - Solution: **Asymptotic Analysis**
 
 
-## Asymptotic Analysis
+### Asymptotic Analysis
 
 - The technique uses a high-level description of the algorithm instead of an implementation
 - We evaluate the performance of an algorithm in terms of input size
 - We calculate how does the time taken by an algorithm increase with the input size
 
 
-## Estimating running-time
+### Estimating running-time
 
 - Write down an algorithm using pseudocode
 - In terms of a set of primitive operations
@@ -69,7 +69,7 @@
 - This leads onto the Big-O notation for computational complexity
 
 
-## T(n)
+### T(n)
 
 - Used to measure the running time/computation of an algorithm
 - We refer to this resultant formulae as $T(n)$ where $n$ is the size of the input
@@ -77,7 +77,7 @@
 - We can use $T(n)$ to compute a **very** important property called the Big-O, $O(n)$ 
 
 
-# Primitive Operations
+#### Primitive Operations
 
 - The basic computations performed by an algorithm
 - Examples:

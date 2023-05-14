@@ -96,3 +96,4 @@ endif
 
 [Foundation of Algorithm Analysis](Foundation%20of%20Algorithm%20Analysis.md)
 [Mathematical Foundation](mathematical%20foundation.md)
+[Searching and sorting](Searching%20and%20sorting.md)

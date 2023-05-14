@@ -35,4 +35,4 @@ The coursework consist of two tasks:
 
 # Topics
 
-- [Algorithms](algorithms.md)
+- [Algorithm Basics](Algorithm%20Basics.md)

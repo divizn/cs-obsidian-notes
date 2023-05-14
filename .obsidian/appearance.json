@@ -1,9 +1,10 @@
 {
   "accentColor": "#0055ff",
   "baseFontSize": 14,
-  "cssTheme": "Proper Dark",
-  "translucency": true,
+  "cssTheme": "Minimal",
+  "translucency": false,
   "nativeMenus": true,
   "textFontFamily": "Inter",
-  "interfaceFontFamily": "Inter"
+  "interfaceFontFamily": "Inter",
+  "theme": "obsidian"
 }
