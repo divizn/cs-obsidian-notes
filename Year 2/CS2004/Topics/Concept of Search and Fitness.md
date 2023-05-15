@@ -71,3 +71,5 @@
 - **The subset or section of the search space in question may contain the global optima**
 - Many search techniques can find local optima, but get "stuck" at them and cannot move on to find the global optima
 	- e.g. Random Mutation Hill Climbing (RMHC)
+![](glob-loc-optima.png)
+
