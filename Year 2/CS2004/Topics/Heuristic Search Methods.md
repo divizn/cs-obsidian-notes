@@ -15,3 +15,34 @@
 - The hill climbing algorithm can easily get "stuck" in a local optima, e.g.:
 ![[Pasted image 20230515180903.png]]
 	- From the starting point, the algorithm will **never** reach the global optima
+
+
+
+# Stochastic Hill Climbing (SHC)
+
+- The RMHC algorithm can have very variable performance
+- We need to improve upon it to escape local optima
+- We can do this by letting the algorithm accept worse fitness function values during its search
+- This is the basis of the SHC algorithm
+	- The chance of accepting is a function of how bad the change is
+	- A very bad change will have a small change of being accepted
+	- A slightly bad change will be accepted more often
+	- Many ways of doing this, e.g. relies on **decision** function
+- We accept a new solution according to the following equation:
+$$Pr(accept)={1\over 1+e^{(f'-f)\mid T}}$$
+- Here:
+	- $f'$ is the new fitness
+	- $f$ is the old fitness
+	- $T$ is a parameter (set to 25 for the 1000 prime scales problem)
+- The correct choice of $T$ can be **very** difficult
+- We get an average best of 8.0
+	- 10 runs of 1000 iterations as in the RMHC example
+
+
+# Random Restart Hill Climbing
+
+- A **very** effective version of the Hill Climbing algorithm
+- Here we run the normal RMHC algorithm a number of times and record the best
+	- i.e. we start off in **different** sections of the search space
+	- For example, we might run it 10 times for 100 iterations rather than once for 1000 iterations
+- For our Scales example, we get an average best of 6.2
