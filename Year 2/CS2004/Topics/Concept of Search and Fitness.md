@@ -38,7 +38,7 @@
 - Also some sense of the adjacency (similarity) of solutions (or neighbourhood)
 
 
-# Fitness
+## Fitness
 
 - In order to search for a solution, we must be able to compare potential solutions
 	- e.g. is solution $s_1$ better than solution $s_2$?
@@ -50,7 +50,7 @@
 		- Solution quality goes up $\rightarrow$ fitness goes up (increases)
 
 
-## Fitness landscapes
+### Fitness landscapes
 
 - It can be **helpful** to think of searching a landscape of solutions where:
 	- The $x$ and $y$ co-ordinates represent a particular solution
@@ -64,7 +64,8 @@
 
 
 
-# Global and Local Optima
+
+## Global and Local Optima
 
 - The **global optimum** is the point or points in the search space with the **best** objective function evaluation
 - A **local optimum** is the point (or points) in a subset/section of the search space with the **best** objective function evaluation
@@ -72,4 +73,42 @@
 - Many search techniques can find local optima, but get "stuck" at them and cannot move on to find the global optima
 	- e.g. Random Mutation Hill Climbing (RMHC)
 ![](glob-loc-optima.png)
+
+
+## Representation
+
+- When we are trying to solve a search based problem, we need a way to represent a potential solution
+- This is usually a mathematical and/or data structure based way of describing the solution to a problem
+- A good representation:
+	- Should be a one-to-one mapping
+	- No redundancy
+	- No ambiguities
+	- All potential solutions should be represented
+
+
+## The Scales Problem
+
+> Given $n$ objects of various weights, split them into two equally heavy piles (or as equal as possible)
+
+
+- We have $n$ weights that are $W=[W_1,W_2,...W_n]$ in weight ($W_i>0$)
+- We want to divide them into two equal piles in weight, or as equal as possible
+- We are going to work with the general case, not a specific set of given weights, we want to solve the problem for **any** $W$
+
+
+- We first look to see if there is a simple or standard method to solve the problem
+	- For this example problem, there is not
+- We need to:
+	- **Design a representation**
+	- **Construct a fitness function**
+	- **Apply a heuristic search method**
+- Each weight is either on the left hand side, or the right hand side
+- Given that we have $n$ items into two piles/sets, we could use a binary representation
+- We represent a solution as an **$n$ length binary string** (or array/vector/list) where:
+	- A zero in position $i$ means that weight $i$ is on the left side of the scales
+	- A one in position $i$ means that the weight $i$ is on the right side of the scales
+	- This can represent all possible allocations
+	- We will refer to this string as $S$ and each bit as $S_i$
+	- If $S_i=0$, then weight $i$ is on the left hand side scale
+	- If $S_i=1$, then weight $i$ is on the right hand side scale
 
