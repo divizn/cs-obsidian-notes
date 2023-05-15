@@ -40,4 +40,5 @@ The coursework consist of two tasks:
 - [Mathematical Foundation](Mathematical%20Foundation.md)
 - [Searching and sorting](Searching%20and%20sorting.md)
 - [Data Structures](data%20structures.md)
+- [Graph Traversal](graph%20traversal.md)
 
