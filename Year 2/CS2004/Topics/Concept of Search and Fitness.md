@@ -161,7 +161,7 @@
 - Need to search through a number of possible $S$ until we find the best one
 	- i.e. When $F(S,W=0)$
 	- or as close to 0 as possible
-- We therefore need to apply an appropriate heuristic search method:
+- We therefore need to apply an appropriate [heuristic search method](Heuristic%20Search%20Methods.md):
 	- **Random Mutation Hill Climbing (RMHC)**
 	- **Stochastic Hill Climbing (SHC)**
 	- **Random Restart Hill Climbing (RRHC)**
@@ -171,4 +171,3 @@
 	- **Tabu-Search**
 	- **Iterated Local Search**
 	- **Evolutionary Programming (EP)**
-
