@@ -27,6 +27,22 @@
 	- Expert knowledge
 	- Common sense
 
+## Heuristic Search
+
+- NP-Hard problems cannot be solved in a straightforward manner
+- So, we need to develop **approximation algorithms** to solve these problems
+- A type of method called **Heuristic Search** can be used to try and find a solution
+- We search for the best solution from a very large number of potential solutions
+- However, a heuristic method might NOT always find the BEST solution
+	- It aims to find a good solution in a reasonable amount of time
+- We score the worth of each using a **Fitness Function**
+- We try and find a solution that minimises or maximises the fitness
+	- Depending on how we rate the solution
+- The computational complexity of Heuristic search is often very difficult to define
+- We therefore often rate their performance in terms of the **number of fitness function calls**
+	- We compute the Big-O of this function
+- We aim to choose the method that finds us the global optimum in the smallest number of fitness function evaluations
+
 
 # Search Problems
 
