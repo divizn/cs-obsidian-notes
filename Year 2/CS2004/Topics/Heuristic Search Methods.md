@@ -14,4 +14,4 @@
  ![[Pasted image 20230515180727.png]]
 - The hill climbing algorithm can easily get "stuck" in a local optima, e.g.:
 ![[Pasted image 20230515180903.png]]
-- From the starting point, the algorithm will **never** reach the global optima
+	- From the starting point, the algorithm will **never** reach the global optima
