@@ -4,6 +4,8 @@
 - A* search (A-star)
 - Minimum Spanning Trees (MST)
 
+- Dijkstra's Algorithm
+
 ##### What is "search" in graphs?
 
 - Start at the source node, and search until we find the target node
@@ -137,3 +139,101 @@ end for
 - A graph may have many spanning trees
 - The **cost** of a spanning tree is the sum of all the edge weights
 - The minimum spanning tree (MST) is the spanning tree with the **minimum** cost
+```ts
+let x be a random node from V
+let Vnew = {x}
+let Enew = { }
+while Vnew != V
+	choose an edge {u,v} with minimal weight (u is in Vnew and v is not in
+	Vnew)
+	Vnew = Vnew + {v}
+	Enew = Enew + { {u, v} }
+end while
+```
+
+## Applications of MST
+
+- Network Design
+	- E.g. computer networks, telecommunications networks, transportation networks, water supply networks, etc.
+- CfA redshift survey
+	- MSTs used for understanding the large-scale structure of the universe
+- Approximation algorithms for NP-hard problems
+	- e.g. travelling salesman problem
+- Cancer imaging
+	- The British Columbia Cancer Research centre uses them to describe the arrangement of nuclei in skin cells
+
+
+# Dijkstra's Algorithm
+
+## Shortest Path problem
+
+- The problem of finding a path between two nodes in a graph such that the sum of weights of its edges is minimised e.g.
+	- Shortest path between two intersections on a road map
+	- A network package being efficiently routed through the network
+
+### Shortest Path example
+
+- You want to find the shortest possible way from home to your favourite shop
+- You know that there are roads on the way that are more congested and difficult to use than others, and you want to avoid those
+- Edges that are more difficult are given a large weight, whereas edges that are easier are given a lower edge weight
+- The shortest path found by the algorithm will try and avoid edges with larger weights
+
+
+- Problem variations:
+	- **Single-source shortest path problem** - shortest paths from source node to all other nodes in the graph
+	- **Single-destination shortest path problem** - shortest paths from all nodes in the directed graph to a single destination node
+	- **All-pair shortest path problem** - shortest paths between every pair of nodes in the graph
+- Various algorithms for solving the problem: Dijkstra's algorithm, Bellman-Ford algorithm, A* search algorithm, Floyd Warshall algorithm, etc.
+
+## Dijkstra's Algorithm
+
+- Conceived by pioneer computer scientist Edsger Dijkstra
+- The algorithm is a **greedy approach**
+	- Making best (optimal) choice at each stage hoping that the end result is the best result
+- Given a start, the algorithm finds the shortest paths between the start node and all other nodes in a graph
+
+- Used to solve the shortest path problem
+	- Both directed and undirected graphs
+	- All edges **must have non-negative weights**
+	- Graphs must be connected
+- Many variants but the most common is to find the shortest paths from a source node to all other nodes in the graph
+- Given an end destination, we can keep track of visited nodes and thus find the path
+
+```ts
+let unvisited = all unvisited nodes from G
+let distance of start node = 0
+let parents = a list of null
+let distance of all other nodes = infinity
+while unvisited is not empty
+	let current node = node with the smallest distance from unvisited
+	remove currentNode from unvisited
+	if currentNode position is goal
+		backtrack to get path
+	end if
+	for each neighbour in unvisited to currentNode
+		let newDist = currentNodes distance + distance currentNode+neighbou
+		if newDist < neighbours distance
+			set neighbours distance to newDist
+			set neighbours parent to currentNode
+		 end if
+	 end for
+ end while
+```
+
+- The complexity of the algorithm depends on the implementation and the data structure:
+	- The classic implementation is $O(n^2)$, n being the number of nodes of the graph
+	- Using other implementations like heaps: $O(E+n\log n)$, $E$ is the number of edges and $n$ is the number of nodes of the graph
+
+
+## Applications of Dijkstra's Algorithm
+
+- Finding the Shortest Path
+- GPS System
+	- A geographical map as a graph
+	- Locations in the map are nodes/vertices
+	- Road between locations are edges
+	- Weights of edges are distance between two locations
+- Network routing
+- Commercial shipping
+- etc.
+
