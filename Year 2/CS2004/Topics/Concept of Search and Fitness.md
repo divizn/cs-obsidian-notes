@@ -98,12 +98,15 @@
 
 - We first look to see if there is a simple or standard method to solve the problem
 	- For this example problem, there is not
-- We need to:
+- So, we need to:
 	- **Design a representation**
 	- **Construct a fitness function**
 	- **Apply a heuristic search method**
+
+##### Representation
+
 - Each weight is either on the left hand side, or the right hand side
-- Given that we have $n$ items into two piles/sets, we could use a binary representation
+- Given that we have $n$ items into two piles/sets, we could use a *binary representation*
 - We represent a solution as an **$n$ length binary string** (or array/vector/list) where:
 	- A zero in position $i$ means that weight $i$ is on the left side of the scales
 	- A one in position $i$ means that the weight $i$ is on the right side of the scales
@@ -112,3 +115,25 @@
 	- If $S_i=0$, then weight $i$ is on the left hand side scale
 	- If $S_i=1$, then weight $i$ is on the right hand side scale
 
+
+##### Fitness
+
+- We now need to design an appropriate fitness function
+- This function should score on **how good a solution is at solving our problem**
+- What's the aim of the problem?
+	- Equal balancing (or as near as possible)
+- Balanced would be when the sum of the weights on the left hand side (LHS) of the scales equals the sum of the right hand side (RHS)
+- The worse this difference is, the worse our solution is at solving the problem
+- The best fitness would be 0 (scale balanced)
+- The worst fitness would be when the weights are on either the left, or right hand side
+- Thus, meaning this is a **minimisation** problem
+- Let $L$ = Sum of LHS
+- Let $R$ = Sum of RHS
+- Fitness = $\mid L-R\mid$ (absolute cause we only care about difference)
+- So our **fitness function** will take 2 parameters:
+	- A **potential solution** - a binary string of length $n$
+	- A **set of weights** - a real vector/array of length $n$
+- It will then return a real number (positive cause absolute)
+- Each weight $w$, will either be added onto the left hand side $L$, or the right hand side $R$
+- So we can iterate through each weight adding it to $L$ or $R$ depending on what side of the scales the representation specifies the weight is on
+- 
