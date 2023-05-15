@@ -135,5 +135,24 @@
 	- A **set of weights** - a real vector/array of length $n$
 - It will then return a real number (positive cause absolute)
 - Each weight $w$, will either be added onto the left hand side $L$, or the right hand side $R$
-- So we can iterate through each weight adding it to $L$ or $R$ depending on what side of the scales the representation specifies the weight is on
-- 
+- So we can iterate through each weight adding it to $L$ or $R$ depending on what side of the scales the representation specifies the weight is on 
+
+![](scales-fitness.png)
+
+
+##### Heuristic
+
+- Need to search through a number of possible $S$ until we find the best one
+	- i.e. When $F(S,W=0)$
+	- or as close to 0 as possible
+- We therefore need to apply an appropriate heuristic search method:
+	- **Random Mutation Hill Climbing (RMHC)**
+	- **Stochastic Hill Climbing (SHC)**
+	- **Random Restart Hill Climbing (RRHC)**
+	- **Simulated Annealing (SA)**
+	- **Genetic Algorithms (GA)**
+	- **Particle Swarm Optimisation (PSO)**
+	- **Tabu-Search**
+	- **Iterated Local Search**
+	- **Evolutionary Programming (EP)**
+
