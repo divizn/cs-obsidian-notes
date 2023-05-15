@@ -41,4 +41,5 @@ The coursework consist of two tasks:
 - [Searching and sorting](Searching%20and%20sorting.md)
 - [Data Structures](data%20structures.md)
 - [Graph Traversal](graph%20traversal.md)
+- [Concept of Search and Fitness](Concept%20of%20Search%20and%20Fitness.md)
 

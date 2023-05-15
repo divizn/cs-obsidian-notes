@@ -237,3 +237,57 @@ while unvisited is not empty
 - Commercial shipping
 - etc.
 
+
+## Disadvantages of Dijkstra
+
+- No sense of direction (e.g. it goes to lowest weight first so a path that doesn't lead to location could be picked first)
+- Doesn't work with negative weights
+
+
+# Floyd-Warshall
+
+- Computes how far each node is from every other node in the input graph
+- All-pairs shortest path
+- Computes 1-step paths, 2-step paths, etc.
+	- Is it shorter to go to a node via a node rather than directly to it?
+- It does not return the paths (but it can do)
+- Negative edges allowed (but not negative cycles)
+
+
+## Dynamic Programming
+
+- Floyd-Warshall relies on Dynamic Programming
+- Dynamic Programming is an approach to problem solving
+- Systematically pre-compute and store the answers to sub-problems to build up the solution to a complex problem
+	- Reuses those recorded results instead of recomputing them
+
+> A Dynamic Programming algorithm solves every subproblem just once and then saves its answer in a table, avoiding the work of recomputing the answer every time the subproblem is encountered 
+> -- Cormen et al. "Introduction to Algorithms", The MIT Press
+
+## Floyd-Warshall - Steps
+
+- The optimal way to represent the graph is with a 2D adjacenty matrix
+- If there is no edge between two nodes, we set the edge weight to infinity
+	- Indicating two nodes are not directly connected to each other
+- The main goal is to consider and compute all intermediate paths between two nodes
+- For example, we want to go from node A to node B
+	- If distance of $(A\rightarrow C)+(C\rightarrow B)$, then it's better to go through node $C$
+- The optimal path from $A\rightarrow B$ is:
+	- $A\rightarrow C, C\rightarrow B$, routing through another node labelled "$X$"
+	- We already computed the optimal path $C\rightarrow B$ and it involves intermediate node
+	- ![](floyd1.png)
+- We make use of dynamic programming to store previous optimal solutions
+- Find all pair shortest that use 0 intermediate node, then using the shortest paths that use 1 intermediate node... until using all N nodes as intermediate nodes
+- Construct a matrix ($n \times n$), where matrix(`i,j`) = shortest path from node `i` to node `j`
+- We route through nodes $(0,1,2,...,k)$% computing $k=0,k=1,k=2,$ etc..
+- This builds the solution routing through 0, then all solutions through 0 and 1, then all solutions through 0,1,2 and so on...
+- Until we covered all nodes and thus solving the shortest path problem
+
+![](floydpseudo.png)
+![](floydpseudo2.png)
+
+- What is the time complexity of this algorithm?
+	- $O(n^3)$, where $n$ is the number of nodes
+	- Because of the 3 nested `for` loops
+- Ideal for smaller graphs
+	- No larger than few hundred nodes
