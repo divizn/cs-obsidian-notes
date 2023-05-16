@@ -312,3 +312,111 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 - The pheromone value of an arc ($i,j$) is updated when traversed by ant $k$ as follows:
 $$t_{ij}'=t_{ij}+\Delta t_{ij}^k$$
 $$t^k_{ij}\propto{1\over The\ Tour\ Length\ of\ Ant\ k\ so\ far}$$
+- The probability of an arc being taken by subsequent ants is proportional to how **good** it was deemed by ants that have already traversed it
+
+
+##### Pheromone Evaporation
+
+- The pheromones "evaporate" by applying the following equation to all the arcs:
+$$t'_{ij}=(1-p)t_{ij}$$
+- Here $p \in (0,1)$ is a parameter
+- Similar to the cooling rate heuristic for the temperature in Simulated Annealing
+
+#### ACO Advantages and Disadvantages
+
+- Advantages:
+	- Can be used in dynamic applications
+	- Rapid discovery of good solutions
+	- Performs better against other global optimisation techniques
+	- Easily parallelised
+- Disadvantages:
+	- Theoretical analysis is difficult 
+	- Time to convergence uncertain
+	- Performed poorly for large scale problems (e.g. >75 cities TSP)
+
+
+### Particle Swarm Optimisation (PSO)
+
+- Population based stochastic optimisation technique
+- It uses a number of agents (particles) that constitute a swam moving around the search space looking for the best solution
+- Each particle is treated as a point in an n-dimensional space which adjusts its "flying" according to its own flying experience as well as the flying experience of other particles
+
+
+#### PSO Concepts
+
+- Each particle keeps track of
+	- Its coordinates in the solution space
+	- Associated fitness
+	- The best solution and fitness it has achieved so far
+		- This value is called the personal best $P_{best}$
+- The PSO algorithm also tracks the best value obtained so far by any particle in swarm
+	- This value is called the global best $G_{best}$
+- The basic concept of PSO lies in accelerating each particle towards its personal best and global best locations, with a random weighted acceleration at each time step
+	- Inspired by "Bolds"
+ - Each particle tries to modify its position using the following information:
+	 - Current position
+	 - Current velocity
+	 - Distance between current position and $p_{best}$
+	 - Distance between current position and $G_{best}$
+
+![[Pasted image 20230516073833.png]]
+
+![[Pasted image 20230516074013.png]]
+
+##### Inertial Weight
+
+- A large inertia weight ($w$) facilitates a global search while a small inertia weight facilitates a local search 
+	- $\therefore$ larger weight = greater global search ability (exploration)
+	- $\therefore$ smaller weight = greater local search ability (exploitation)
+- By linearly decreasing the inertia weight from a relatively large value to a small value through the course of the PSO run gives the best PSO performance compared with fixed inertia weight settings
+- Keep a proper balance between exploration and exploitation to avoid premature convergence to a local optimum yet still ensure a good rate of convergence to the optimum
+
+
+#### PSO Advantages and Disadvantages
+
+- Advantages:
+	- Many optimisation applications in science and industry, including where GA can be applied, image recognition, training ANN (neural network), etc.
+	- Simple implementation and less parameter tuning
+	- Easily parallelised
+- Disadvantages
+	- Tendency to a fast and premature convergence
+	- Slow convergence
+
+
+#### PSO comparison with Evolutionary Computation (EC)
+
+- No selection operation in PSO
+	- All particles in PSO are kept as members of the population
+	- PSO (and ACO) are the only algorithms (population based Heuristic search) that do not implement the survival of the fittest operator
+- No crossover operator in PSO
+- The PSO update formulae resembles mutation in EP
+
+
+## Bin Packing and Data Clustering
+
+### Bin Packing
+
+- Fitting items effectively into a container
+- The **bin packing** problem is where a number of $n4 items of size $x_1,.....x_n$ need putting into the smallest number of bins (or boxes) of size/capacity $c$
+
+
+#### Bin Packing algorithms
+
+- Combinatorial problem
+- There are a large number of bin packing applications:
+	- Filling recycle bins
+	- CD/Tape compilations
+	- TV/Radio advertisements
+- There are a large number of bin packing methods
+- We will look at the **first-fit decreasing** bin packing algorithm
+
+##### First-Fit Decreasing (FFD)
+
+- This algorithm takes advantage of the idea packing a suitcase
+- $n$ empty bins are created and numbered $1..n$
+- The items that need to be packed are **sorted** in decreasing order
+- Each item is packed into the first bin it will fit into, starting at the largest first
+- Empty bins (on completion) are discarded/ignored
+- e.g.
+![[Pasted image 20230516075945.png]]
+
