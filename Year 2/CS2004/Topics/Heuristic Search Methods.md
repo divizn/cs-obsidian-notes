@@ -304,3 +304,11 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 - At the beginning of the search process, a constant amount of **pheromone** is assigned to all arcs
 - When located at a node $i$ an ant $k$ uses the pheromone trail to compute the probability of choosing $j$ as the next node:
 	$$p_{ij}^k\propto {Pheromone\ from\ node\ i\ to\ j\over Sum\ of\ Pheromone\ for\ all\ valid\ paths}$$
+- The probability is zero for nodes that are unreachable from node $i$
+- Similar to **Roulette Wheel Selection** in Genetic Algorithms
+
+##### Pheromone Update
+
+- The pheromone value of an arc ($i,j$) is updated when traversed by ant $k$ as follows:
+$$t_{ij}'=t_{ij}+\Delta t_{ij}^k$$
+$$t^k_{ij}\propto{1\over The\ Tour\ Length\ of\ Ant\ k\ so\ far}$$
