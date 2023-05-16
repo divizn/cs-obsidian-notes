@@ -213,4 +213,21 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
  - Every individual mutates, doubling the population
  - The mutation operators tend to be complex and/or adaptive
  - The selection/survival operator tends to be **Tournament Selection**
-- With **tournament selection**, each member of the population is compared with a fixed number of other individuals 
+
+- With **tournament selection**, each member of the population is compared with a fixed number of other individuals
+- For each comparison, the individual is awarded a point if it's fitness is better than the opponent
+- The population is reduced back to its original size by retaining those with the highest score
+
+![[Pasted image 20230516062801.png]]
+
+
+### Genetic Programming (GP)
+
+- GP is an evolutionary approach that extends Genetic Algorithms
+- We evolve computer programs by Natural Selection
+- There are many techniques, but we go through **Symbolic Regression** which  is a type of **Genetic Programming**
+
+- With symbolic regression, a mathematical expression is represented as a tree structure
+- Consider the expression: $x^2 + \ln(10)-7.3x$, then the tree representing this is:
+![[Pasted image 20230516063111.png]]
+
