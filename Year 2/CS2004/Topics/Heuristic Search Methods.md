@@ -397,7 +397,7 @@ $$t'_{ij}=(1-p)t_{ij}$$
 ### Bin Packing
 
 - Fitting items effectively into a container
-- The **bin packing** problem is where a number of $n4 items of size $x_1,.....x_n$ need putting into the smallest number of bins (or boxes) of size/capacity $c$
+- The **bin packing** problem is where a number of $n4$ items of size $x_1,.....x_n$ need putting into the smallest number of bins (or boxes) of size/capacity $c$
 
 
 #### Bin Packing algorithms
