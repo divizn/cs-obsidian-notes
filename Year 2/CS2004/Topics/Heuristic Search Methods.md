@@ -433,3 +433,70 @@ $$t'_{ij}=(1-p)t_{ij}$$
 ![[Pasted image 20230516080324.png]]
 
 ### Data Clustering
+
+- **Data Clustering** is a common technique for data analysis
+	- Used in many fields e.g. pattern recognition, image analysis and bioinformatics, etc.
+- Data clustering is the process of arranging objects (as points) into a number of sets ($k$) according to "distance"
+	- Each set (ideally) shares some common trait - often similarity or proximity for some defined distance measure
+	- Each set will be referred to as a cluster/group
+	- For the purposes of this module, each set is **mutually exclusive**, i.e. an item cannot be in more than one cluster
+	- The objects in different clusters are "dissimilar" to the ones in others
+
+#### Why Cluster?
+
+- Knowing which objects are highly related to others is useful within data analysis
+	- Less complex to model
+	- A useful pre-processing tool
+	- May give insight into the unknown properties of some of the objects
+
+#### Applications
+
+- Retail marketing
+	- Retail companies often use clustering to identify groups of households that are similar to each other:
+		- Household income
+		- Household size
+		- Head of household occupation
+		- Distance from nearest urban area
+- Sports science
+	- Data scientist for sports teams often use clustering to identify players that are similar to each other on the following factors (different for other games):
+		- Points per game
+		- Rebounds per game
+		- Assists per game
+		- Steals per game
+- Health insurance
+	- Health insurance companies may collect the following information about households:
+		- Total number of doctor visits per year
+		- Total household size
+		- Total number of chronic conditions per household
+		- Average age of household members
+
+#### Cluster representation
+
+![[Pasted image 20230516081533.png]]
+![[Pasted image 20230516081601.png]]
+
+
+### Data similarity
+
+- Distance between various data points from the data
+- Many methods designed to work on **Distance Metrics** or **Similarity** between rows
+	- e.g. K-Means
+- Rows are compared to each other and a measure of how similar they are is used by the clustering methods
+	- Similar rows are placed into the same cluster
+- The performance of many clustering algorithms depends on selecting a good distance function
+- Many ways to measure similarity between objects we're clustering
+	- Eucliedean
+	- Correlation
+		- Pearson
+		- Spearman
+		- Kendal
+	- Manhattan
+	- etc.
+
+#### Euclidean Distance
+
+- The shortest distance between two points
+- In the two dimensional case, this is the length of the right angled triangle constructed between two points (Pythagoras Theorem)
+- The Euclidean distance between two $n$-dimensional points or two data objects stored as a row vector is defined as followed:
+![[Pasted image 20230516081956.png]]
+
