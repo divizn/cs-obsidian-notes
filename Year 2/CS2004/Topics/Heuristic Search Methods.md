@@ -41,7 +41,7 @@ $$Pr(accept)={1\over 1+e^{(f'-f)\mid T}}$$
 	- 10 runs of 1000 iterations as in the RMHC example
 
 
-## Random Restart Hill Climbing
+## Random Restart Hill Climbing (RRHC)
 
 - A **very** effective version of the Hill Climbing algorithm
 - Here we run the normal RMHC algorithm a number of times and record the best
