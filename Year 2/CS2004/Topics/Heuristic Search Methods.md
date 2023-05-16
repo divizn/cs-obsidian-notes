@@ -94,7 +94,7 @@ $$Pr(accept)={1\over 1+e^{(f'-f)\mid T}}$$
 - Populations evolve and breed through recombination
 
 
-## Genes and chromosomes
+### Genes and chromosomes
 
 - The technique of GA uses biological metaphors
 	- Each **gene** is a binary digit
@@ -104,7 +104,7 @@ $$Pr(accept)={1\over 1+e^{(f'-f)\mid T}}$$
 	- It must cover the whole **search space**
 - A **fitness function** is needed to rate how good a solution a chromosome represents
 
-## Knapsack Problem - Example
+### Knapsack Problem - Example
 
 - Given $n$ items, each with a **weight** and a **value**, determine the items to include so that the total *weight is less than or equal to a given limit and the total value is as large as possible*
 
@@ -120,7 +120,7 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 - Repeat until done - best solution to the problem
 
 
-### Crossover
+#### Crossover
 
 - Analogous to recombination or breeding
 - Typically genetic material from 2 parents are combined to create **children**
@@ -145,7 +145,7 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 	- Child $D$ gets the gene that child $C$ does not
 
 
-### Mutation
+#### Mutation
 
 - Analogous to biological mutation
 - Small random tweak of the gene (in the chromosome), to get a new solution
@@ -157,7 +157,7 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 		- A '0' becomes a '1'
 
 
-### Selection
+#### Selection
 
 - Aim to retain the best performing chromosomes from one generation to the next
 - Forming new population
@@ -167,7 +167,7 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 		- There are many other types
 
 
-## GAs parameters
+### GAs parameters
 
 - $NG$ - Number of generations
 - $PS$ - Population size
@@ -176,7 +176,7 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 - $n$ - Number of Bits (Genes) making up each Chromosome
 
 
-## Holland's GA Algorithm
+### Holland's GA Algorithm
 
 ![[Pasted image 20230516060951.png]]
 
@@ -192,7 +192,7 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 	- Select the fittest to survive the next generation
 
 
-## Evolutionary Computation
+### Evolutionary Computation
 
 - GA belong to a family of techniques that are inspired from evolution theory
 - They are typically aimed at solving optimisation problems
@@ -206,7 +206,7 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 
 
 
-### Evolutionary Programming (EP)
+#### Evolutionary Programming (EP)
 
  - EP is a similar approach to that of Genetic Algorithms
  - The emphasis is on **mutation** and there is **no crossover**
@@ -221,7 +221,7 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 ![[Pasted image 20230516062801.png]]
 
 
-### Genetic Programming (GP)
+#### Genetic Programming (GP)
 
 - GP is an evolutionary approach that extends Genetic Algorithms
 - We evolve computer programs by Natural Selection
@@ -231,3 +231,76 @@ $$[0,1,1,0,0,1,1,0,0,0]$$
 - Consider the expression: $x^2 + \ln(10)-7.3x$, then the tree representing this is:
 ![[Pasted image 20230516063111.png]]
 
+- Initially determine the set of terminals and functions
+- The fitness of such a tree is a function of the observed data versus the calculated data resulting from evaluating the expression the tree represents
+- Crossover and mutation are redesigned to handle tree structures
+- The genetic programming algorithm is virtually the same as the genetic algorithm
+
+
+## ASO, PSO and Swarm Intelligence
+
+### Swarm Intelligence
+
+- Inspiration from nature e.g. bees, fish , birds, ants (swarm)
+	- Social insects:
+		- Can solve many problems like finding food, feeding the brood, defending the nest, and building a nest
+		- Several million years of success:
+			- Efficient
+			- Flexible
+			- Robust
+- It is the **interaction** of many simple parts creating **complex** behaviour
+	- The net effect is group's collective wisdom is greater than the sum of the individuals
+- Emergent behaviour as a side effect of the system
+	- Behaviours that are not programmed or designed in the algorithm
+		- e.g. find the shortest path to a food source; walk in a straight line in some studies
+	- A challenge in theoretical physics to find minimal statistical models that capture these behaviours
+- **Decentralised**, **self-organised** systems
+- Only simple rules for each individual
+	- Simple but extremely powerful
+	- The problems are usually difficult to define
+	- Solutions result from the behaviour and interactions between individual agents
+	- Solutions are emergent in the systems
+
+#### Swarm Intelligence Algorithms
+
+- Most popular Algorithms:
+	- Ant Colony Optimisation (ACO)
+	- Particle Swarm Optimisation (PSO)
+
+
+### Ant Colony Optimisation
+
+- A **heuristic** optimisation method inspired by **biological systems**
+- A multiple agent based approach for solving difficult combinatorial optimisation problems
+	- Mainly **graph** based problems
+		- Travelling salesman, vehicle routing, sequential ordering, graph colouring, manufacturing scheduling, routing in communications networks, etc.
+
+#### Ant Behaviour
+
+- Ants (blind) navigate from nest to food sources
+- The shortest path is discovered via pheromone trails
+	- Each ant moves at random (biased)
+	- **Pheromone** is deposited onto the path
+	- Ants detect the lead ants path and are inclined to follow
+	- More pheromone on the path means an increased probability of the path being followed
+	- Pheromone upgrade: **evaporation**
+
+- Stigmergy:
+	- Indirect coordination/communication between agents or actions
+		- Individual behaviour modifies the environment, which in turn modifies the behaviour of other individuals
+		- Stimulates the performance of subsequent actions leading to the spontaneous emergence of **coherent**, apparently **systematic** activity
+		- Reduces (or eliminates) communication between agents
+		- Supports efficient collaboration between simple agents
+		- Produces complex, seemingly intelligent structures, without need for any planning, control, or even direct communication between the agents
+
+#### 3 Key Rules in ACO
+
+- Route selection
+- Pheromone update
+- Pheromone evaporation
+
+##### Route Selection
+
+- At the beginning of the search process, a constant amount of **pheromone** is assigned to all arcs
+- When located at a node $i$ an ant $k$ uses the pheromone trail to compute the probability of choosing $j$ as the next node:
+	$$p_{ij}^k\propto {Pheromone\ from\ node\ i\ to\ j\over Sum\ of\ Pheromone\ for\ all\ valid\ paths}$$
