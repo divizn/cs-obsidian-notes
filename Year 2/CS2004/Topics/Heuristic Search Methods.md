@@ -420,3 +420,16 @@ $$t'_{ij}=(1-p)t_{ij}$$
 - e.g.
 ![[Pasted image 20230516075945.png]]
 
+
+### Clustering
+
+![[Pasted image 20230516080040.png]]
+
+- Patterns - physical objects (the animals/plants)
+- Clusters - categories of objects (the categories (animal kingdom, plant kingdom))
+- Features - attributes of objects (colour: green, brown, grey)
+
+#### Patterns, clusters and features
+![[Pasted image 20230516080324.png]]
+
+### Data Clustering
