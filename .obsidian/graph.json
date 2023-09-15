@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "file:Index.md",
@@ -62,6 +62,62 @@
         "a": 1,
         "rgb": 24826
       }
+    },
+    {
+      "query": "file:readme.md",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "file:Year 3.md",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "file:Year 2.md",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "path:\"Year 3/CS3072\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:\"Year 3/CS3001\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15597823
+      }
+    },
+    {
+      "query": "path:\"Year 3/CS3004\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 399358
+      }
+    },
+    {
+      "query": "path:\"Year 3/CS3002\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16514816
+      }
+    },
+    {
+      "query": "path:\"Year 3/CS3609\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2031360
+      }
     }
   ],
   "collapse-display": true,
@@ -70,10 +126,10 @@
   "nodeSizeMultiplier": 1.50364583333333,
   "lineSizeMultiplier": 0.891145833333333,
   "collapse-forces": false,
-  "centerStrength": 0.447916666666667,
+  "centerStrength": 0.463541666666667,
   "repelStrength": 20,
-  "linkStrength": 0.703125,
-  "linkDistance": 267,
-  "scale": 0.4911302734004136,
+  "linkStrength": 0.755208333333333,
+  "linkDistance": 204,
+  "scale": 0.6885562438874874,
   "close": true
 }
