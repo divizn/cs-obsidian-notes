@@ -44,3 +44,9 @@
 	$$Euclidean: d(x,y) = \sqrt((x_1 - y_1)^2+(x_2 - y_2)^2 + ...+(x_N - y_N)^2)$$
 	$$Manhattan: d(x,y) = |x_1-y_1|+|x_2-y_2|+...+|x_N-y_N|$$
 - The shorter the distance, the more similar the two patterns
+
+
+![](metrics.png)
+
+![](embeddings.png)
+
